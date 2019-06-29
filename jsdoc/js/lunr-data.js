@@ -58,25 +58,117 @@ window.lunrData = {
           "list",
           "list:class"
         ],
-        "Logger.LoggerFactory.html": [
+        "LoggerFactory.html": [
           "class",
           "creat",
           "factori",
           "instanc",
           "logger",
-          "logger.loggerfactori",
           "loggerfactori"
         ],
-        "Logger.LoggerFactory.html#.getLogger": [
+        "LoggerFactory.html#.getLogger": [
           "function",
           "getlogg",
           "instanc",
           "level",
           "logger",
-          "logger.loggerfactory.getlogg",
           "loggerfactory.getlogg",
           "lt;static&gt",
           "type"
+        ],
+        "AbstractLogger.html": [
+          "abstract",
+          "abstractlogg",
+          "augment",
+          "class",
+          "logger",
+          "lt;abstract&gt"
+        ],
+        "AbstractLogger.html#log": [
+          "abstractlogger#log",
+          "default",
+          "function",
+          "level",
+          "log",
+          "messag"
+        ],
+        "AbstractLogger.html#info": [
+          "abstractlogger#info",
+          "function",
+          "info",
+          "level",
+          "log",
+          "messag"
+        ],
+        "AbstractLogger.html#error": [
+          "abstractlogger#error",
+          "error",
+          "function",
+          "level",
+          "log",
+          "messag"
+        ],
+        "AbstractLogger.html#debug": [
+          "abstractlogger#debug",
+          "debug",
+          "function",
+          "level",
+          "log",
+          "messag"
+        ],
+        "AbstractLogger.html#warn": [
+          "abstractlogger#warn",
+          "function",
+          "level",
+          "log",
+          "messag",
+          "warn"
+        ],
+        "ConsoleLogger.html": [
+          "class",
+          "consol",
+          "consolelogg",
+          "logger"
+        ],
+        "ConsoleLogger.html#log": [
+          "consolelogger#log",
+          "default",
+          "function",
+          "level",
+          "log",
+          "messag"
+        ],
+        "ConsoleLogger.html#info": [
+          "consolelogger#info",
+          "function",
+          "info",
+          "level",
+          "log",
+          "messag"
+        ],
+        "ConsoleLogger.html#error": [
+          "consolelogger#error",
+          "error",
+          "function",
+          "level",
+          "log",
+          "messag"
+        ],
+        "ConsoleLogger.html#debug": [
+          "consolelogger#debug",
+          "debug",
+          "function",
+          "level",
+          "log",
+          "messag"
+        ],
+        "ConsoleLogger.html#warn": [
+          "consolelogger#warn",
+          "function",
+          "level",
+          "log",
+          "messag",
+          "warn"
         ],
         "Logger.ColorConsoleLogger.html": [
           "class",
@@ -86,68 +178,53 @@ window.lunrData = {
           "logger",
           "logger.colorconsolelogg"
         ],
-        "Logger.ConsoleLogger.html": [
-          "class",
-          "consol",
-          "consolelogg",
-          "logger",
-          "logger.consolelogg"
-        ],
-        "Logger.AbstractLogger.html": [
-          "abstract",
-          "abstractlogg",
-          "augment",
-          "class",
-          "logger",
-          "logger.abstractlogg",
-          "lt;abstract&gt"
-        ],
-        "Logger.AbstractLogger.html#log": [
-          "abstractlogger#log",
+        "Logger.ColorConsoleLogger.html#log": [
+          "colorconsolelogger#log",
+          "default",
           "function",
           "level",
           "log",
-          "logger.abstractlogger#log",
+          "logger.colorconsolelogger#log",
           "messag"
         ],
-        "Logger.AbstractLogger.html#info": [
-          "abstractlogger#info",
+        "Logger.ColorConsoleLogger.html#info": [
+          "colorconsolelogger#info",
           "function",
           "info",
           "level",
           "log",
-          "logger.abstractlogger#info",
+          "logger.colorconsolelogger#info",
           "messag"
         ],
-        "Logger.AbstractLogger.html#error": [
-          "abstractlogger#error",
+        "Logger.ColorConsoleLogger.html#error": [
+          "colorconsolelogger#error",
           "error",
           "function",
           "level",
           "log",
-          "logger.abstractlogger#error",
+          "logger.colorconsolelogger#error",
           "messag"
         ],
-        "Logger.AbstractLogger.html#debug": [
-          "abstractlogger#debug",
+        "Logger.ColorConsoleLogger.html#debug": [
+          "colorconsolelogger#debug",
           "debug",
           "function",
           "level",
           "log",
-          "logger.abstractlogger#debug",
+          "logger.colorconsolelogger#debug",
           "messag"
         ],
-        "Logger.AbstractLogger.html#warn": [
-          "abstractlogger#warn",
+        "Logger.ColorConsoleLogger.html#warn": [
+          "colorconsolelogger#warn",
           "function",
           "level",
           "log",
-          "logger.abstractlogger#warn",
+          "logger.colorconsolelogger#warn",
           "messag",
           "warn"
         ]
       },
-      "length": 13
+      "length": 23
     },
     "tokenStore": {
       "root": {
@@ -166,8 +243,8 @@ window.lunrData = {
                     "docs": {},
                     "t": {
                       "docs": {
-                        "Logger.AbstractLogger.html": {
-                          "ref": "Logger.AbstractLogger.html",
+                        "AbstractLogger.html": {
+                          "ref": "AbstractLogger.html",
                           "tf": 16.666666666666664
                         }
                       },
@@ -208,8 +285,8 @@ window.lunrData = {
                       "docs": {},
                       "t": {
                         "docs": {
-                          "Logger.AbstractLogger.html": {
-                            "ref": "Logger.AbstractLogger.html",
+                          "AbstractLogger.html": {
+                            "ref": "AbstractLogger.html",
                             "tf": 16.666666666666664
                           }
                         },
@@ -221,9 +298,9 @@ window.lunrData = {
                               "docs": {},
                               "g": {
                                 "docs": {
-                                  "Logger.AbstractLogger.html": {
-                                    "ref": "Logger.AbstractLogger.html",
-                                    "tf": 700
+                                  "AbstractLogger.html": {
+                                    "ref": "AbstractLogger.html",
+                                    "tf": 1850
                                   }
                                 },
                                 "e": {
@@ -238,9 +315,9 @@ window.lunrData = {
                                           "docs": {},
                                           "g": {
                                             "docs": {
-                                              "Logger.AbstractLogger.html#log": {
-                                                "ref": "Logger.AbstractLogger.html#log",
-                                                "tf": 100
+                                              "AbstractLogger.html#log": {
+                                                "ref": "AbstractLogger.html#log",
+                                                "tf": 1150
                                               }
                                             }
                                           }
@@ -254,9 +331,9 @@ window.lunrData = {
                                             "docs": {},
                                             "o": {
                                               "docs": {
-                                                "Logger.AbstractLogger.html#info": {
-                                                  "ref": "Logger.AbstractLogger.html#info",
-                                                  "tf": 100
+                                                "AbstractLogger.html#info": {
+                                                  "ref": "AbstractLogger.html#info",
+                                                  "tf": 1150
                                                 }
                                               }
                                             }
@@ -273,9 +350,9 @@ window.lunrData = {
                                               "docs": {},
                                               "r": {
                                                 "docs": {
-                                                  "Logger.AbstractLogger.html#error": {
-                                                    "ref": "Logger.AbstractLogger.html#error",
-                                                    "tf": 100
+                                                  "AbstractLogger.html#error": {
+                                                    "ref": "AbstractLogger.html#error",
+                                                    "tf": 1150
                                                   }
                                                 }
                                               }
@@ -293,9 +370,9 @@ window.lunrData = {
                                               "docs": {},
                                               "g": {
                                                 "docs": {
-                                                  "Logger.AbstractLogger.html#debug": {
-                                                    "ref": "Logger.AbstractLogger.html#debug",
-                                                    "tf": 100
+                                                  "AbstractLogger.html#debug": {
+                                                    "ref": "AbstractLogger.html#debug",
+                                                    "tf": 1150
                                                   }
                                                 }
                                               }
@@ -311,9 +388,9 @@ window.lunrData = {
                                             "docs": {},
                                             "n": {
                                               "docs": {
-                                                "Logger.AbstractLogger.html#warn": {
-                                                  "ref": "Logger.AbstractLogger.html#warn",
-                                                  "tf": 100
+                                                "AbstractLogger.html#warn": {
+                                                  "ref": "AbstractLogger.html#warn",
+                                                  "tf": 1150
                                                 }
                                               }
                                             }
@@ -346,6 +423,144 @@ window.lunrData = {
                   "index.html": {
                     "ref": "index.html",
                     "tf": 214
+                  }
+                }
+              }
+            },
+            "n": {
+              "docs": {},
+              "s": {
+                "docs": {},
+                "o": {
+                  "docs": {},
+                  "l": {
+                    "docs": {
+                      "ConsoleLogger.html": {
+                        "ref": "ConsoleLogger.html",
+                        "tf": 25
+                      },
+                      "Logger.ColorConsoleLogger.html": {
+                        "ref": "Logger.ColorConsoleLogger.html",
+                        "tf": 16.666666666666664
+                      }
+                    },
+                    "e": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "o": {
+                          "docs": {},
+                          "g": {
+                            "docs": {},
+                            "g": {
+                              "docs": {
+                                "ConsoleLogger.html": {
+                                  "ref": "ConsoleLogger.html",
+                                  "tf": 1900
+                                }
+                              },
+                              "e": {
+                                "docs": {},
+                                "r": {
+                                  "docs": {},
+                                  "#": {
+                                    "docs": {},
+                                    "l": {
+                                      "docs": {},
+                                      "o": {
+                                        "docs": {},
+                                        "g": {
+                                          "docs": {
+                                            "ConsoleLogger.html#log": {
+                                              "ref": "ConsoleLogger.html#log",
+                                              "tf": 1150
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "i": {
+                                      "docs": {},
+                                      "n": {
+                                        "docs": {},
+                                        "f": {
+                                          "docs": {},
+                                          "o": {
+                                            "docs": {
+                                              "ConsoleLogger.html#info": {
+                                                "ref": "ConsoleLogger.html#info",
+                                                "tf": 1150
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "e": {
+                                      "docs": {},
+                                      "r": {
+                                        "docs": {},
+                                        "r": {
+                                          "docs": {},
+                                          "o": {
+                                            "docs": {},
+                                            "r": {
+                                              "docs": {
+                                                "ConsoleLogger.html#error": {
+                                                  "ref": "ConsoleLogger.html#error",
+                                                  "tf": 1150
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "d": {
+                                      "docs": {},
+                                      "e": {
+                                        "docs": {},
+                                        "b": {
+                                          "docs": {},
+                                          "u": {
+                                            "docs": {},
+                                            "g": {
+                                              "docs": {
+                                                "ConsoleLogger.html#debug": {
+                                                  "ref": "ConsoleLogger.html#debug",
+                                                  "tf": 1150
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "w": {
+                                      "docs": {},
+                                      "a": {
+                                        "docs": {},
+                                        "r": {
+                                          "docs": {},
+                                          "n": {
+                                            "docs": {
+                                              "ConsoleLogger.html#warn": {
+                                                "ref": "ConsoleLogger.html#warn",
+                                                "tf": 1150
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -387,51 +602,107 @@ window.lunrData = {
                                             "ref": "Logger.ColorConsoleLogger.html",
                                             "tf": 750
                                           }
+                                        },
+                                        "e": {
+                                          "docs": {},
+                                          "r": {
+                                            "docs": {},
+                                            "#": {
+                                              "docs": {},
+                                              "l": {
+                                                "docs": {},
+                                                "o": {
+                                                  "docs": {},
+                                                  "g": {
+                                                    "docs": {
+                                                      "Logger.ColorConsoleLogger.html#log": {
+                                                        "ref": "Logger.ColorConsoleLogger.html#log",
+                                                        "tf": 100
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "i": {
+                                                "docs": {},
+                                                "n": {
+                                                  "docs": {},
+                                                  "f": {
+                                                    "docs": {},
+                                                    "o": {
+                                                      "docs": {
+                                                        "Logger.ColorConsoleLogger.html#info": {
+                                                          "ref": "Logger.ColorConsoleLogger.html#info",
+                                                          "tf": 100
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "e": {
+                                                "docs": {},
+                                                "r": {
+                                                  "docs": {},
+                                                  "r": {
+                                                    "docs": {},
+                                                    "o": {
+                                                      "docs": {},
+                                                      "r": {
+                                                        "docs": {
+                                                          "Logger.ColorConsoleLogger.html#error": {
+                                                            "ref": "Logger.ColorConsoleLogger.html#error",
+                                                            "tf": 100
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "d": {
+                                                "docs": {},
+                                                "e": {
+                                                  "docs": {},
+                                                  "b": {
+                                                    "docs": {},
+                                                    "u": {
+                                                      "docs": {},
+                                                      "g": {
+                                                        "docs": {
+                                                          "Logger.ColorConsoleLogger.html#debug": {
+                                                            "ref": "Logger.ColorConsoleLogger.html#debug",
+                                                            "tf": 100
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "w": {
+                                                "docs": {},
+                                                "a": {
+                                                  "docs": {},
+                                                  "r": {
+                                                    "docs": {},
+                                                    "n": {
+                                                      "docs": {
+                                                        "Logger.ColorConsoleLogger.html#warn": {
+                                                          "ref": "Logger.ColorConsoleLogger.html#warn",
+                                                          "tf": 100
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
                                         }
                                       }
                                     }
                                   }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "n": {
-              "docs": {},
-              "s": {
-                "docs": {},
-                "o": {
-                  "docs": {},
-                  "l": {
-                    "docs": {
-                      "Logger.ColorConsoleLogger.html": {
-                        "ref": "Logger.ColorConsoleLogger.html",
-                        "tf": 16.666666666666664
-                      },
-                      "Logger.ConsoleLogger.html": {
-                        "ref": "Logger.ConsoleLogger.html",
-                        "tf": 25
-                      }
-                    },
-                    "e": {
-                      "docs": {},
-                      "l": {
-                        "docs": {},
-                        "o": {
-                          "docs": {},
-                          "g": {
-                            "docs": {},
-                            "g": {
-                              "docs": {
-                                "Logger.ConsoleLogger.html": {
-                                  "ref": "Logger.ConsoleLogger.html",
-                                  "tf": 750
                                 }
                               }
                             }
@@ -456,20 +727,20 @@ window.lunrData = {
                       "ref": "list_class.html",
                       "tf": 635
                     },
-                    "Logger.LoggerFactory.html": {
-                      "ref": "Logger.LoggerFactory.html",
+                    "LoggerFactory.html": {
+                      "ref": "LoggerFactory.html",
+                      "tf": 110
+                    },
+                    "AbstractLogger.html": {
+                      "ref": "AbstractLogger.html",
+                      "tf": 110
+                    },
+                    "ConsoleLogger.html": {
+                      "ref": "ConsoleLogger.html",
                       "tf": 110
                     },
                     "Logger.ColorConsoleLogger.html": {
                       "ref": "Logger.ColorConsoleLogger.html",
-                      "tf": 110
-                    },
-                    "Logger.ConsoleLogger.html": {
-                      "ref": "Logger.ConsoleLogger.html",
-                      "tf": 110
-                    },
-                    "Logger.AbstractLogger.html": {
-                      "ref": "Logger.AbstractLogger.html",
                       "tf": 110
                     }
                   }
@@ -485,8 +756,8 @@ window.lunrData = {
                 "docs": {},
                 "t": {
                   "docs": {
-                    "Logger.LoggerFactory.html": {
-                      "ref": "Logger.LoggerFactory.html",
+                    "LoggerFactory.html": {
+                      "ref": "LoggerFactory.html",
                       "tf": 10
                     }
                   }
@@ -519,14 +790,50 @@ window.lunrData = {
                 }
               }
             },
+            "f": {
+              "docs": {},
+              "a": {
+                "docs": {},
+                "u": {
+                  "docs": {},
+                  "l": {
+                    "docs": {},
+                    "t": {
+                      "docs": {
+                        "AbstractLogger.html#log": {
+                          "ref": "AbstractLogger.html#log",
+                          "tf": 12.5
+                        },
+                        "ConsoleLogger.html#log": {
+                          "ref": "ConsoleLogger.html#log",
+                          "tf": 12.5
+                        },
+                        "Logger.ColorConsoleLogger.html#log": {
+                          "ref": "Logger.ColorConsoleLogger.html#log",
+                          "tf": 12.5
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "b": {
               "docs": {},
               "u": {
                 "docs": {},
                 "g": {
                   "docs": {
-                    "Logger.AbstractLogger.html#debug": {
-                      "ref": "Logger.AbstractLogger.html#debug",
+                    "AbstractLogger.html#debug": {
+                      "ref": "AbstractLogger.html#debug",
+                      "tf": 712.5
+                    },
+                    "ConsoleLogger.html#debug": {
+                      "ref": "ConsoleLogger.html#debug",
+                      "tf": 712.5
+                    },
+                    "Logger.ColorConsoleLogger.html#debug": {
+                      "ref": "Logger.ColorConsoleLogger.html#debug",
                       "tf": 662.5
                     }
                   }
@@ -593,12 +900,12 @@ window.lunrData = {
                     "docs": {},
                     "c": {
                       "docs": {
-                        "Logger.LoggerFactory.html": {
-                          "ref": "Logger.LoggerFactory.html",
+                        "LoggerFactory.html": {
+                          "ref": "LoggerFactory.html",
                           "tf": 10
                         },
-                        "Logger.LoggerFactory.html#.getLogger": {
-                          "ref": "Logger.LoggerFactory.html#.getLogger",
+                        "LoggerFactory.html#.getLogger": {
+                          "ref": "LoggerFactory.html#.getLogger",
                           "tf": 16.666666666666664
                         }
                       }
@@ -611,8 +918,16 @@ window.lunrData = {
               "docs": {},
               "o": {
                 "docs": {
-                  "Logger.AbstractLogger.html#info": {
-                    "ref": "Logger.AbstractLogger.html#info",
+                  "AbstractLogger.html#info": {
+                    "ref": "AbstractLogger.html#info",
+                    "tf": 712.5
+                  },
+                  "ConsoleLogger.html#info": {
+                    "ref": "ConsoleLogger.html#info",
+                    "tf": 712.5
+                  },
+                  "Logger.ColorConsoleLogger.html#info": {
+                    "ref": "Logger.ColorConsoleLogger.html#info",
                     "tf": 662.5
                   }
                 }
@@ -714,9 +1029,9 @@ window.lunrData = {
                     "docs": {},
                     "g": {
                       "docs": {
-                        "Logger.LoggerFactory.html#.getLogger": {
-                          "ref": "Logger.LoggerFactory.html#.getLogger",
-                          "tf": 641.6666666666666
+                        "LoggerFactory.html#.getLogger": {
+                          "ref": "LoggerFactory.html#.getLogger",
+                          "tf": 691.6666666666666
                         }
                       }
                     }
@@ -769,24 +1084,64 @@ window.lunrData = {
             "docs": {},
             "g": {
               "docs": {
-                "Logger.AbstractLogger.html#log": {
-                  "ref": "Logger.AbstractLogger.html#log",
-                  "tf": 658.3333333333334
+                "AbstractLogger.html#log": {
+                  "ref": "AbstractLogger.html#log",
+                  "tf": 695.8333333333334
                 },
-                "Logger.AbstractLogger.html#info": {
-                  "ref": "Logger.AbstractLogger.html#info",
+                "AbstractLogger.html#info": {
+                  "ref": "AbstractLogger.html#info",
                   "tf": 12.5
                 },
-                "Logger.AbstractLogger.html#error": {
-                  "ref": "Logger.AbstractLogger.html#error",
+                "AbstractLogger.html#error": {
+                  "ref": "AbstractLogger.html#error",
                   "tf": 12.5
                 },
-                "Logger.AbstractLogger.html#debug": {
-                  "ref": "Logger.AbstractLogger.html#debug",
+                "AbstractLogger.html#debug": {
+                  "ref": "AbstractLogger.html#debug",
                   "tf": 12.5
                 },
-                "Logger.AbstractLogger.html#warn": {
-                  "ref": "Logger.AbstractLogger.html#warn",
+                "AbstractLogger.html#warn": {
+                  "ref": "AbstractLogger.html#warn",
+                  "tf": 12.5
+                },
+                "ConsoleLogger.html#log": {
+                  "ref": "ConsoleLogger.html#log",
+                  "tf": 695.8333333333334
+                },
+                "ConsoleLogger.html#info": {
+                  "ref": "ConsoleLogger.html#info",
+                  "tf": 12.5
+                },
+                "ConsoleLogger.html#error": {
+                  "ref": "ConsoleLogger.html#error",
+                  "tf": 12.5
+                },
+                "ConsoleLogger.html#debug": {
+                  "ref": "ConsoleLogger.html#debug",
+                  "tf": 12.5
+                },
+                "ConsoleLogger.html#warn": {
+                  "ref": "ConsoleLogger.html#warn",
+                  "tf": 12.5
+                },
+                "Logger.ColorConsoleLogger.html#log": {
+                  "ref": "Logger.ColorConsoleLogger.html#log",
+                  "tf": 645.8333333333334
+                },
+                "Logger.ColorConsoleLogger.html#info": {
+                  "ref": "Logger.ColorConsoleLogger.html#info",
+                  "tf": 12.5
+                },
+                "Logger.ColorConsoleLogger.html#error": {
+                  "ref": "Logger.ColorConsoleLogger.html#error",
+                  "tf": 12.5
+                },
+                "Logger.ColorConsoleLogger.html#debug": {
+                  "ref": "Logger.ColorConsoleLogger.html#debug",
+                  "tf": 12.5
+                },
+                "Logger.ColorConsoleLogger.html#warn": {
+                  "ref": "Logger.ColorConsoleLogger.html#warn",
                   "tf": 12.5
                 }
               },
@@ -796,89 +1151,68 @@ window.lunrData = {
                   "docs": {},
                   "r": {
                     "docs": {
-                      "Logger.LoggerFactory.html": {
-                        "ref": "Logger.LoggerFactory.html",
+                      "LoggerFactory.html": {
+                        "ref": "LoggerFactory.html",
                         "tf": 20
                       },
-                      "Logger.LoggerFactory.html#.getLogger": {
-                        "ref": "Logger.LoggerFactory.html#.getLogger",
+                      "LoggerFactory.html#.getLogger": {
+                        "ref": "LoggerFactory.html#.getLogger",
                         "tf": 16.666666666666664
+                      },
+                      "AbstractLogger.html": {
+                        "ref": "AbstractLogger.html",
+                        "tf": 16.666666666666664
+                      },
+                      "ConsoleLogger.html": {
+                        "ref": "ConsoleLogger.html",
+                        "tf": 25
                       },
                       "Logger.ColorConsoleLogger.html": {
                         "ref": "Logger.ColorConsoleLogger.html",
                         "tf": 16.666666666666664
-                      },
-                      "Logger.ConsoleLogger.html": {
-                        "ref": "Logger.ConsoleLogger.html",
-                        "tf": 25
-                      },
-                      "Logger.AbstractLogger.html": {
-                        "ref": "Logger.AbstractLogger.html",
-                        "tf": 16.666666666666664
                       }
                     },
-                    ".": {
+                    "f": {
                       "docs": {},
-                      "l": {
+                      "a": {
                         "docs": {},
-                        "o": {
+                        "c": {
                           "docs": {},
-                          "g": {
+                          "t": {
                             "docs": {},
-                            "g": {
+                            "o": {
                               "docs": {},
-                              "e": {
+                              "r": {
                                 "docs": {},
-                                "r": {
+                                "i": {
+                                  "docs": {
+                                    "LoggerFactory.html": {
+                                      "ref": "LoggerFactory.html",
+                                      "tf": 1900
+                                    }
+                                  }
+                                },
+                                "y": {
                                   "docs": {},
-                                  "f": {
+                                  ".": {
                                     "docs": {},
-                                    "a": {
+                                    "g": {
                                       "docs": {},
-                                      "c": {
+                                      "e": {
                                         "docs": {},
                                         "t": {
                                           "docs": {},
-                                          "o": {
+                                          "l": {
                                             "docs": {},
-                                            "r": {
+                                            "o": {
                                               "docs": {},
-                                              "i": {
-                                                "docs": {
-                                                  "Logger.LoggerFactory.html": {
-                                                    "ref": "Logger.LoggerFactory.html",
-                                                    "tf": 1150
-                                                  }
-                                                }
-                                              },
-                                              "y": {
+                                              "g": {
                                                 "docs": {},
-                                                ".": {
-                                                  "docs": {},
-                                                  "g": {
-                                                    "docs": {},
-                                                    "e": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {},
-                                                        "l": {
-                                                          "docs": {},
-                                                          "o": {
-                                                            "docs": {},
-                                                            "g": {
-                                                              "docs": {},
-                                                              "g": {
-                                                                "docs": {
-                                                                  "Logger.LoggerFactory.html#.getLogger": {
-                                                                    "ref": "Logger.LoggerFactory.html#.getLogger",
-                                                                    "tf": 1100
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
+                                                "g": {
+                                                  "docs": {
+                                                    "LoggerFactory.html#.getLogger": {
+                                                      "ref": "LoggerFactory.html#.getLogger",
+                                                      "tf": 1150
                                                     }
                                                   }
                                                 }
@@ -894,7 +1228,10 @@ window.lunrData = {
                             }
                           }
                         }
-                      },
+                      }
+                    },
+                    ".": {
+                      "docs": {},
                       "c": {
                         "docs": {},
                         "o": {
@@ -931,235 +1268,104 @@ window.lunrData = {
                                                           "ref": "Logger.ColorConsoleLogger.html",
                                                           "tf": 1150
                                                         }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "n": {
-                            "docs": {},
-                            "s": {
-                              "docs": {},
-                              "o": {
-                                "docs": {},
-                                "l": {
-                                  "docs": {},
-                                  "e": {
-                                    "docs": {},
-                                    "l": {
-                                      "docs": {},
-                                      "o": {
-                                        "docs": {},
-                                        "g": {
-                                          "docs": {},
-                                          "g": {
-                                            "docs": {
-                                              "Logger.ConsoleLogger.html": {
-                                                "ref": "Logger.ConsoleLogger.html",
-                                                "tf": 1150
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "a": {
-                        "docs": {},
-                        "b": {
-                          "docs": {},
-                          "s": {
-                            "docs": {},
-                            "t": {
-                              "docs": {},
-                              "r": {
-                                "docs": {},
-                                "a": {
-                                  "docs": {},
-                                  "c": {
-                                    "docs": {},
-                                    "t": {
-                                      "docs": {},
-                                      "l": {
-                                        "docs": {},
-                                        "o": {
-                                          "docs": {},
-                                          "g": {
-                                            "docs": {},
-                                            "g": {
-                                              "docs": {
-                                                "Logger.AbstractLogger.html": {
-                                                  "ref": "Logger.AbstractLogger.html",
-                                                  "tf": 1150
-                                                }
-                                              },
-                                              "e": {
-                                                "docs": {},
-                                                "r": {
-                                                  "docs": {},
-                                                  "#": {
-                                                    "docs": {},
-                                                    "l": {
-                                                      "docs": {},
-                                                      "o": {
-                                                        "docs": {},
-                                                        "g": {
-                                                          "docs": {
-                                                            "Logger.AbstractLogger.html#log": {
-                                                              "ref": "Logger.AbstractLogger.html#log",
-                                                              "tf": 1100
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    },
-                                                    "i": {
-                                                      "docs": {},
-                                                      "n": {
-                                                        "docs": {},
-                                                        "f": {
-                                                          "docs": {},
-                                                          "o": {
-                                                            "docs": {
-                                                              "Logger.AbstractLogger.html#info": {
-                                                                "ref": "Logger.AbstractLogger.html#info",
-                                                                "tf": 1100
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    },
-                                                    "e": {
-                                                      "docs": {},
-                                                      "r": {
-                                                        "docs": {},
-                                                        "r": {
-                                                          "docs": {},
-                                                          "o": {
-                                                            "docs": {},
-                                                            "r": {
-                                                              "docs": {
-                                                                "Logger.AbstractLogger.html#error": {
-                                                                  "ref": "Logger.AbstractLogger.html#error",
-                                                                  "tf": 1100
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    },
-                                                    "d": {
-                                                      "docs": {},
+                                                      },
                                                       "e": {
                                                         "docs": {},
-                                                        "b": {
+                                                        "r": {
                                                           "docs": {},
-                                                          "u": {
+                                                          "#": {
                                                             "docs": {},
-                                                            "g": {
-                                                              "docs": {
-                                                                "Logger.AbstractLogger.html#debug": {
-                                                                  "ref": "Logger.AbstractLogger.html#debug",
-                                                                  "tf": 1100
+                                                            "l": {
+                                                              "docs": {},
+                                                              "o": {
+                                                                "docs": {},
+                                                                "g": {
+                                                                  "docs": {
+                                                                    "Logger.ColorConsoleLogger.html#log": {
+                                                                      "ref": "Logger.ColorConsoleLogger.html#log",
+                                                                      "tf": 1100
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "i": {
+                                                              "docs": {},
+                                                              "n": {
+                                                                "docs": {},
+                                                                "f": {
+                                                                  "docs": {},
+                                                                  "o": {
+                                                                    "docs": {
+                                                                      "Logger.ColorConsoleLogger.html#info": {
+                                                                        "ref": "Logger.ColorConsoleLogger.html#info",
+                                                                        "tf": 1100
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "e": {
+                                                              "docs": {},
+                                                              "r": {
+                                                                "docs": {},
+                                                                "r": {
+                                                                  "docs": {},
+                                                                  "o": {
+                                                                    "docs": {},
+                                                                    "r": {
+                                                                      "docs": {
+                                                                        "Logger.ColorConsoleLogger.html#error": {
+                                                                          "ref": "Logger.ColorConsoleLogger.html#error",
+                                                                          "tf": 1100
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "d": {
+                                                              "docs": {},
+                                                              "e": {
+                                                                "docs": {},
+                                                                "b": {
+                                                                  "docs": {},
+                                                                  "u": {
+                                                                    "docs": {},
+                                                                    "g": {
+                                                                      "docs": {
+                                                                        "Logger.ColorConsoleLogger.html#debug": {
+                                                                          "ref": "Logger.ColorConsoleLogger.html#debug",
+                                                                          "tf": 1100
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "w": {
+                                                              "docs": {},
+                                                              "a": {
+                                                                "docs": {},
+                                                                "r": {
+                                                                  "docs": {},
+                                                                  "n": {
+                                                                    "docs": {
+                                                                      "Logger.ColorConsoleLogger.html#warn": {
+                                                                        "ref": "Logger.ColorConsoleLogger.html#warn",
+                                                                        "tf": 1100
+                                                                      }
+                                                                    }
+                                                                  }
                                                                 }
                                                               }
                                                             }
                                                           }
                                                         }
                                                       }
-                                                    },
-                                                    "w": {
-                                                      "docs": {},
-                                                      "a": {
-                                                        "docs": {},
-                                                        "r": {
-                                                          "docs": {},
-                                                          "n": {
-                                                            "docs": {
-                                                              "Logger.AbstractLogger.html#warn": {
-                                                                "ref": "Logger.AbstractLogger.html#warn",
-                                                                "tf": 1100
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "f": {
-                      "docs": {},
-                      "a": {
-                        "docs": {},
-                        "c": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "o": {
-                              "docs": {},
-                              "r": {
-                                "docs": {},
-                                "i": {
-                                  "docs": {
-                                    "Logger.LoggerFactory.html": {
-                                      "ref": "Logger.LoggerFactory.html",
-                                      "tf": 750
-                                    }
-                                  }
-                                },
-                                "y": {
-                                  "docs": {},
-                                  ".": {
-                                    "docs": {},
-                                    "g": {
-                                      "docs": {},
-                                      "e": {
-                                        "docs": {},
-                                        "t": {
-                                          "docs": {},
-                                          "l": {
-                                            "docs": {},
-                                            "o": {
-                                              "docs": {},
-                                              "g": {
-                                                "docs": {},
-                                                "g": {
-                                                  "docs": {
-                                                    "Logger.LoggerFactory.html#.getLogger": {
-                                                      "ref": "Logger.LoggerFactory.html#.getLogger",
-                                                      "tf": 100
                                                     }
                                                   }
                                                 }
@@ -1190,28 +1396,68 @@ window.lunrData = {
                 "docs": {},
                 "l": {
                   "docs": {
-                    "Logger.LoggerFactory.html#.getLogger": {
-                      "ref": "Logger.LoggerFactory.html#.getLogger",
+                    "LoggerFactory.html#.getLogger": {
+                      "ref": "LoggerFactory.html#.getLogger",
                       "tf": 25
                     },
-                    "Logger.AbstractLogger.html#log": {
-                      "ref": "Logger.AbstractLogger.html#log",
-                      "tf": 33.33333333333333
+                    "AbstractLogger.html#log": {
+                      "ref": "AbstractLogger.html#log",
+                      "tf": 45.83333333333333
                     },
-                    "Logger.AbstractLogger.html#info": {
-                      "ref": "Logger.AbstractLogger.html#info",
+                    "AbstractLogger.html#info": {
+                      "ref": "AbstractLogger.html#info",
                       "tf": 12.5
                     },
-                    "Logger.AbstractLogger.html#error": {
-                      "ref": "Logger.AbstractLogger.html#error",
+                    "AbstractLogger.html#error": {
+                      "ref": "AbstractLogger.html#error",
                       "tf": 12.5
                     },
-                    "Logger.AbstractLogger.html#debug": {
-                      "ref": "Logger.AbstractLogger.html#debug",
+                    "AbstractLogger.html#debug": {
+                      "ref": "AbstractLogger.html#debug",
                       "tf": 12.5
                     },
-                    "Logger.AbstractLogger.html#warn": {
-                      "ref": "Logger.AbstractLogger.html#warn",
+                    "AbstractLogger.html#warn": {
+                      "ref": "AbstractLogger.html#warn",
+                      "tf": 12.5
+                    },
+                    "ConsoleLogger.html#log": {
+                      "ref": "ConsoleLogger.html#log",
+                      "tf": 45.83333333333333
+                    },
+                    "ConsoleLogger.html#info": {
+                      "ref": "ConsoleLogger.html#info",
+                      "tf": 12.5
+                    },
+                    "ConsoleLogger.html#error": {
+                      "ref": "ConsoleLogger.html#error",
+                      "tf": 12.5
+                    },
+                    "ConsoleLogger.html#debug": {
+                      "ref": "ConsoleLogger.html#debug",
+                      "tf": 12.5
+                    },
+                    "ConsoleLogger.html#warn": {
+                      "ref": "ConsoleLogger.html#warn",
+                      "tf": 12.5
+                    },
+                    "Logger.ColorConsoleLogger.html#log": {
+                      "ref": "Logger.ColorConsoleLogger.html#log",
+                      "tf": 45.83333333333333
+                    },
+                    "Logger.ColorConsoleLogger.html#info": {
+                      "ref": "Logger.ColorConsoleLogger.html#info",
+                      "tf": 12.5
+                    },
+                    "Logger.ColorConsoleLogger.html#error": {
+                      "ref": "Logger.ColorConsoleLogger.html#error",
+                      "tf": 12.5
+                    },
+                    "Logger.ColorConsoleLogger.html#debug": {
+                      "ref": "Logger.ColorConsoleLogger.html#debug",
+                      "tf": 12.5
+                    },
+                    "Logger.ColorConsoleLogger.html#warn": {
+                      "ref": "Logger.ColorConsoleLogger.html#warn",
                       "tf": 12.5
                     }
                   }
@@ -1241,8 +1487,8 @@ window.lunrData = {
                               "docs": {},
                               "t": {
                                 "docs": {
-                                  "Logger.LoggerFactory.html#.getLogger": {
-                                    "ref": "Logger.LoggerFactory.html#.getLogger",
+                                  "LoggerFactory.html#.getLogger": {
+                                    "ref": "LoggerFactory.html#.getLogger",
                                     "tf": 25
                                   }
                                 }
@@ -1277,8 +1523,8 @@ window.lunrData = {
                                   "docs": {},
                                   "t": {
                                     "docs": {
-                                      "Logger.AbstractLogger.html": {
-                                        "ref": "Logger.AbstractLogger.html",
+                                      "AbstractLogger.html": {
+                                        "ref": "AbstractLogger.html",
                                         "tf": 50
                                       }
                                     }
@@ -1310,8 +1556,8 @@ window.lunrData = {
                     "docs": {},
                     "i": {
                       "docs": {
-                        "Logger.LoggerFactory.html": {
-                          "ref": "Logger.LoggerFactory.html",
+                        "LoggerFactory.html": {
+                          "ref": "LoggerFactory.html",
                           "tf": 10
                         }
                       }
@@ -1335,28 +1581,68 @@ window.lunrData = {
                       "docs": {},
                       "n": {
                         "docs": {
-                          "Logger.LoggerFactory.html#.getLogger": {
-                            "ref": "Logger.LoggerFactory.html#.getLogger",
+                          "LoggerFactory.html#.getLogger": {
+                            "ref": "LoggerFactory.html#.getLogger",
                             "tf": 110
                           },
-                          "Logger.AbstractLogger.html#log": {
-                            "ref": "Logger.AbstractLogger.html#log",
+                          "AbstractLogger.html#log": {
+                            "ref": "AbstractLogger.html#log",
                             "tf": 110
                           },
-                          "Logger.AbstractLogger.html#info": {
-                            "ref": "Logger.AbstractLogger.html#info",
+                          "AbstractLogger.html#info": {
+                            "ref": "AbstractLogger.html#info",
                             "tf": 110
                           },
-                          "Logger.AbstractLogger.html#error": {
-                            "ref": "Logger.AbstractLogger.html#error",
+                          "AbstractLogger.html#error": {
+                            "ref": "AbstractLogger.html#error",
                             "tf": 110
                           },
-                          "Logger.AbstractLogger.html#debug": {
-                            "ref": "Logger.AbstractLogger.html#debug",
+                          "AbstractLogger.html#debug": {
+                            "ref": "AbstractLogger.html#debug",
                             "tf": 110
                           },
-                          "Logger.AbstractLogger.html#warn": {
-                            "ref": "Logger.AbstractLogger.html#warn",
+                          "AbstractLogger.html#warn": {
+                            "ref": "AbstractLogger.html#warn",
+                            "tf": 110
+                          },
+                          "ConsoleLogger.html#log": {
+                            "ref": "ConsoleLogger.html#log",
+                            "tf": 110
+                          },
+                          "ConsoleLogger.html#info": {
+                            "ref": "ConsoleLogger.html#info",
+                            "tf": 110
+                          },
+                          "ConsoleLogger.html#error": {
+                            "ref": "ConsoleLogger.html#error",
+                            "tf": 110
+                          },
+                          "ConsoleLogger.html#debug": {
+                            "ref": "ConsoleLogger.html#debug",
+                            "tf": 110
+                          },
+                          "ConsoleLogger.html#warn": {
+                            "ref": "ConsoleLogger.html#warn",
+                            "tf": 110
+                          },
+                          "Logger.ColorConsoleLogger.html#log": {
+                            "ref": "Logger.ColorConsoleLogger.html#log",
+                            "tf": 110
+                          },
+                          "Logger.ColorConsoleLogger.html#info": {
+                            "ref": "Logger.ColorConsoleLogger.html#info",
+                            "tf": 110
+                          },
+                          "Logger.ColorConsoleLogger.html#error": {
+                            "ref": "Logger.ColorConsoleLogger.html#error",
+                            "tf": 110
+                          },
+                          "Logger.ColorConsoleLogger.html#debug": {
+                            "ref": "Logger.ColorConsoleLogger.html#debug",
+                            "tf": 110
+                          },
+                          "Logger.ColorConsoleLogger.html#warn": {
+                            "ref": "Logger.ColorConsoleLogger.html#warn",
                             "tf": 110
                           }
                         }
@@ -1376,8 +1662,8 @@ window.lunrData = {
               "docs": {},
               "e": {
                 "docs": {
-                  "Logger.LoggerFactory.html#.getLogger": {
-                    "ref": "Logger.LoggerFactory.html#.getLogger",
+                  "LoggerFactory.html#.getLogger": {
+                    "ref": "LoggerFactory.html#.getLogger",
                     "tf": 25
                   }
                 }
@@ -1397,24 +1683,64 @@ window.lunrData = {
                   "docs": {},
                   "g": {
                     "docs": {
-                      "Logger.AbstractLogger.html#log": {
-                        "ref": "Logger.AbstractLogger.html#log",
-                        "tf": 58.33333333333333
+                      "AbstractLogger.html#log": {
+                        "ref": "AbstractLogger.html#log",
+                        "tf": 45.83333333333333
                       },
-                      "Logger.AbstractLogger.html#info": {
-                        "ref": "Logger.AbstractLogger.html#info",
+                      "AbstractLogger.html#info": {
+                        "ref": "AbstractLogger.html#info",
                         "tf": 62.5
                       },
-                      "Logger.AbstractLogger.html#error": {
-                        "ref": "Logger.AbstractLogger.html#error",
+                      "AbstractLogger.html#error": {
+                        "ref": "AbstractLogger.html#error",
                         "tf": 62.5
                       },
-                      "Logger.AbstractLogger.html#debug": {
-                        "ref": "Logger.AbstractLogger.html#debug",
+                      "AbstractLogger.html#debug": {
+                        "ref": "AbstractLogger.html#debug",
                         "tf": 62.5
                       },
-                      "Logger.AbstractLogger.html#warn": {
-                        "ref": "Logger.AbstractLogger.html#warn",
+                      "AbstractLogger.html#warn": {
+                        "ref": "AbstractLogger.html#warn",
+                        "tf": 62.5
+                      },
+                      "ConsoleLogger.html#log": {
+                        "ref": "ConsoleLogger.html#log",
+                        "tf": 45.83333333333333
+                      },
+                      "ConsoleLogger.html#info": {
+                        "ref": "ConsoleLogger.html#info",
+                        "tf": 62.5
+                      },
+                      "ConsoleLogger.html#error": {
+                        "ref": "ConsoleLogger.html#error",
+                        "tf": 62.5
+                      },
+                      "ConsoleLogger.html#debug": {
+                        "ref": "ConsoleLogger.html#debug",
+                        "tf": 62.5
+                      },
+                      "ConsoleLogger.html#warn": {
+                        "ref": "ConsoleLogger.html#warn",
+                        "tf": 62.5
+                      },
+                      "Logger.ColorConsoleLogger.html#log": {
+                        "ref": "Logger.ColorConsoleLogger.html#log",
+                        "tf": 45.83333333333333
+                      },
+                      "Logger.ColorConsoleLogger.html#info": {
+                        "ref": "Logger.ColorConsoleLogger.html#info",
+                        "tf": 62.5
+                      },
+                      "Logger.ColorConsoleLogger.html#error": {
+                        "ref": "Logger.ColorConsoleLogger.html#error",
+                        "tf": 62.5
+                      },
+                      "Logger.ColorConsoleLogger.html#debug": {
+                        "ref": "Logger.ColorConsoleLogger.html#debug",
+                        "tf": 62.5
+                      },
+                      "Logger.ColorConsoleLogger.html#warn": {
+                        "ref": "Logger.ColorConsoleLogger.html#warn",
                         "tf": 62.5
                       }
                     }
@@ -1434,8 +1760,16 @@ window.lunrData = {
                 "docs": {},
                 "r": {
                   "docs": {
-                    "Logger.AbstractLogger.html#error": {
-                      "ref": "Logger.AbstractLogger.html#error",
+                    "AbstractLogger.html#error": {
+                      "ref": "AbstractLogger.html#error",
+                      "tf": 712.5
+                    },
+                    "ConsoleLogger.html#error": {
+                      "ref": "ConsoleLogger.html#error",
+                      "tf": 712.5
+                    },
+                    "Logger.ColorConsoleLogger.html#error": {
+                      "ref": "Logger.ColorConsoleLogger.html#error",
                       "tf": 662.5
                     }
                   }
@@ -1452,8 +1786,16 @@ window.lunrData = {
               "docs": {},
               "n": {
                 "docs": {
-                  "Logger.AbstractLogger.html#warn": {
-                    "ref": "Logger.AbstractLogger.html#warn",
+                  "AbstractLogger.html#warn": {
+                    "ref": "AbstractLogger.html#warn",
+                    "tf": 712.5
+                  },
+                  "ConsoleLogger.html#warn": {
+                    "ref": "ConsoleLogger.html#warn",
+                    "tf": 712.5
+                  },
+                  "Logger.ColorConsoleLogger.html#warn": {
+                    "ref": "Logger.ColorConsoleLogger.html#warn",
                     "tf": 662.5
                   }
                 }
@@ -1462,7 +1804,7 @@ window.lunrData = {
           }
         }
       },
-      "length": 81
+      "length": 138
     },
     "corpusTokens": [
       "abstract",
@@ -1477,11 +1819,22 @@ window.lunrData = {
       "class",
       "color",
       "colorconsolelogg",
+      "colorconsolelogger#debug",
+      "colorconsolelogger#error",
+      "colorconsolelogger#info",
+      "colorconsolelogger#log",
+      "colorconsolelogger#warn",
       "consol",
       "consolelogg",
+      "consolelogger#debug",
+      "consolelogger#error",
+      "consolelogger#info",
+      "consolelogger#log",
+      "consolelogger#warn",
       "core",
       "creat",
       "debug",
+      "default",
       "develop",
       "document",
       "error",
@@ -1497,16 +1850,12 @@ window.lunrData = {
       "list:class",
       "log",
       "logger",
-      "logger.abstractlogg",
-      "logger.abstractlogger#debug",
-      "logger.abstractlogger#error",
-      "logger.abstractlogger#info",
-      "logger.abstractlogger#log",
-      "logger.abstractlogger#warn",
       "logger.colorconsolelogg",
-      "logger.consolelogg",
-      "logger.loggerfactori",
-      "logger.loggerfactory.getlogg",
+      "logger.colorconsolelogger#debug",
+      "logger.colorconsolelogger#error",
+      "logger.colorconsolelogger#info",
+      "logger.colorconsolelogger#log",
+      "logger.colorconsolelogger#warn",
       "loggerfactori",
       "loggerfactory.getlogg",
       "lt;abstract&gt",
@@ -1558,26 +1907,148 @@ window.lunrData = {
       "description": "",
       "body": ""
     },
-    "Logger.LoggerFactory.html": {
-      "id": "Logger.LoggerFactory.html",
+    "LoggerFactory.html": {
+      "id": "LoggerFactory.html",
       "kind": "class",
       "title": "LoggerFactory",
-      "longname": "Logger.LoggerFactory",
+      "longname": "LoggerFactory",
       "name": "LoggerFactory",
-      "tags": "Logger.LoggerFactory LoggerFactory",
+      "tags": "LoggerFactory",
       "summary": "",
       "description": "A logger factory for creating a logger instance",
       "body": ""
     },
-    "Logger.LoggerFactory.html#.getLogger": {
-      "id": "Logger.LoggerFactory.html#.getLogger",
+    "LoggerFactory.html#.getLogger": {
+      "id": "LoggerFactory.html#.getLogger",
       "kind": "function",
       "title": "&lt;static&gt; getLogger( type, level )",
-      "longname": "Logger.LoggerFactory.getLogger",
+      "longname": "LoggerFactory.getLogger",
       "name": "getLogger",
-      "tags": "Logger.LoggerFactory.getLogger LoggerFactory.getLogger getLogger",
+      "tags": "LoggerFactory.getLogger getLogger",
       "summary": "",
       "description": "getLogger - get an instance of a logger"
+    },
+    "AbstractLogger.html": {
+      "id": "AbstractLogger.html",
+      "kind": "class",
+      "title": "&lt;abstract&gt; AbstractLogger",
+      "longname": "AbstractLogger",
+      "name": "AbstractLogger",
+      "tags": "AbstractLogger",
+      "summary": "",
+      "description": "Augmented Abstract Logger",
+      "body": ""
+    },
+    "AbstractLogger.html#log": {
+      "id": "AbstractLogger.html#log",
+      "kind": "function",
+      "title": "log( ...message, level )",
+      "longname": "AbstractLogger#log",
+      "name": "log",
+      "tags": "AbstractLogger#log log",
+      "summary": "",
+      "description": "log a message with default level"
+    },
+    "AbstractLogger.html#info": {
+      "id": "AbstractLogger.html#info",
+      "kind": "function",
+      "title": "info( ...message )",
+      "longname": "AbstractLogger#info",
+      "name": "info",
+      "tags": "AbstractLogger#info info",
+      "summary": "",
+      "description": "Logs a message in info level"
+    },
+    "AbstractLogger.html#error": {
+      "id": "AbstractLogger.html#error",
+      "kind": "function",
+      "title": "error( ...message )",
+      "longname": "AbstractLogger#error",
+      "name": "error",
+      "tags": "AbstractLogger#error error",
+      "summary": "",
+      "description": "Log a message in error level"
+    },
+    "AbstractLogger.html#debug": {
+      "id": "AbstractLogger.html#debug",
+      "kind": "function",
+      "title": "debug( ...message )",
+      "longname": "AbstractLogger#debug",
+      "name": "debug",
+      "tags": "AbstractLogger#debug debug",
+      "summary": "",
+      "description": "Log a message in debug level"
+    },
+    "AbstractLogger.html#warn": {
+      "id": "AbstractLogger.html#warn",
+      "kind": "function",
+      "title": "warn( ...message )",
+      "longname": "AbstractLogger#warn",
+      "name": "warn",
+      "tags": "AbstractLogger#warn warn",
+      "summary": "",
+      "description": "Log a message in warn level"
+    },
+    "ConsoleLogger.html": {
+      "id": "ConsoleLogger.html",
+      "kind": "class",
+      "title": "ConsoleLogger",
+      "longname": "ConsoleLogger",
+      "name": "ConsoleLogger",
+      "tags": "ConsoleLogger",
+      "summary": "",
+      "description": "Console Logger",
+      "body": ""
+    },
+    "ConsoleLogger.html#log": {
+      "id": "ConsoleLogger.html#log",
+      "kind": "function",
+      "title": "log( ...message, level )",
+      "longname": "ConsoleLogger#log",
+      "name": "log",
+      "tags": "ConsoleLogger#log log",
+      "summary": "",
+      "description": "log a message with default level"
+    },
+    "ConsoleLogger.html#info": {
+      "id": "ConsoleLogger.html#info",
+      "kind": "function",
+      "title": "info( ...message )",
+      "longname": "ConsoleLogger#info",
+      "name": "info",
+      "tags": "ConsoleLogger#info info",
+      "summary": "",
+      "description": "Logs a message in info level"
+    },
+    "ConsoleLogger.html#error": {
+      "id": "ConsoleLogger.html#error",
+      "kind": "function",
+      "title": "error( ...message )",
+      "longname": "ConsoleLogger#error",
+      "name": "error",
+      "tags": "ConsoleLogger#error error",
+      "summary": "",
+      "description": "Log a message in error level"
+    },
+    "ConsoleLogger.html#debug": {
+      "id": "ConsoleLogger.html#debug",
+      "kind": "function",
+      "title": "debug( ...message )",
+      "longname": "ConsoleLogger#debug",
+      "name": "debug",
+      "tags": "ConsoleLogger#debug debug",
+      "summary": "",
+      "description": "Log a message in debug level"
+    },
+    "ConsoleLogger.html#warn": {
+      "id": "ConsoleLogger.html#warn",
+      "kind": "function",
+      "title": "warn( ...message )",
+      "longname": "ConsoleLogger#warn",
+      "name": "warn",
+      "tags": "ConsoleLogger#warn warn",
+      "summary": "",
+      "description": "Log a message in warn level"
     },
     "Logger.ColorConsoleLogger.html": {
       "id": "Logger.ColorConsoleLogger.html",
@@ -1590,75 +2061,53 @@ window.lunrData = {
       "description": "Color Console Logger",
       "body": ""
     },
-    "Logger.ConsoleLogger.html": {
-      "id": "Logger.ConsoleLogger.html",
-      "kind": "class",
-      "title": "ConsoleLogger",
-      "longname": "Logger.ConsoleLogger",
-      "name": "ConsoleLogger",
-      "tags": "Logger.ConsoleLogger ConsoleLogger",
-      "summary": "",
-      "description": "Console Logger",
-      "body": ""
-    },
-    "Logger.AbstractLogger.html": {
-      "id": "Logger.AbstractLogger.html",
-      "kind": "class",
-      "title": "&lt;abstract&gt; AbstractLogger",
-      "longname": "Logger.AbstractLogger",
-      "name": "AbstractLogger",
-      "tags": "Logger.AbstractLogger AbstractLogger",
-      "summary": "",
-      "description": "Augmented Abstract Logger",
-      "body": ""
-    },
-    "Logger.AbstractLogger.html#log": {
-      "id": "Logger.AbstractLogger.html#log",
+    "Logger.ColorConsoleLogger.html#log": {
+      "id": "Logger.ColorConsoleLogger.html#log",
       "kind": "function",
-      "title": "log( message, level )",
-      "longname": "Logger.AbstractLogger#log",
+      "title": "log( ...message, level )",
+      "longname": "Logger.ColorConsoleLogger#log",
       "name": "log",
-      "tags": "Logger.AbstractLogger#log AbstractLogger#log log",
+      "tags": "Logger.ColorConsoleLogger#log ColorConsoleLogger#log log",
       "summary": "",
-      "description": "log a message"
+      "description": "log a message with default level"
     },
-    "Logger.AbstractLogger.html#info": {
-      "id": "Logger.AbstractLogger.html#info",
+    "Logger.ColorConsoleLogger.html#info": {
+      "id": "Logger.ColorConsoleLogger.html#info",
       "kind": "function",
-      "title": "info( message )",
-      "longname": "Logger.AbstractLogger#info",
+      "title": "info( ...message )",
+      "longname": "Logger.ColorConsoleLogger#info",
       "name": "info",
-      "tags": "Logger.AbstractLogger#info AbstractLogger#info info",
+      "tags": "Logger.ColorConsoleLogger#info ColorConsoleLogger#info info",
       "summary": "",
       "description": "Logs a message in info level"
     },
-    "Logger.AbstractLogger.html#error": {
-      "id": "Logger.AbstractLogger.html#error",
+    "Logger.ColorConsoleLogger.html#error": {
+      "id": "Logger.ColorConsoleLogger.html#error",
       "kind": "function",
-      "title": "error( message )",
-      "longname": "Logger.AbstractLogger#error",
+      "title": "error( ...message )",
+      "longname": "Logger.ColorConsoleLogger#error",
       "name": "error",
-      "tags": "Logger.AbstractLogger#error AbstractLogger#error error",
+      "tags": "Logger.ColorConsoleLogger#error ColorConsoleLogger#error error",
       "summary": "",
       "description": "Log a message in error level"
     },
-    "Logger.AbstractLogger.html#debug": {
-      "id": "Logger.AbstractLogger.html#debug",
+    "Logger.ColorConsoleLogger.html#debug": {
+      "id": "Logger.ColorConsoleLogger.html#debug",
       "kind": "function",
-      "title": "debug( message )",
-      "longname": "Logger.AbstractLogger#debug",
+      "title": "debug( ...message )",
+      "longname": "Logger.ColorConsoleLogger#debug",
       "name": "debug",
-      "tags": "Logger.AbstractLogger#debug AbstractLogger#debug debug",
+      "tags": "Logger.ColorConsoleLogger#debug ColorConsoleLogger#debug debug",
       "summary": "",
       "description": "Log a message in debug level"
     },
-    "Logger.AbstractLogger.html#warn": {
-      "id": "Logger.AbstractLogger.html#warn",
+    "Logger.ColorConsoleLogger.html#warn": {
+      "id": "Logger.ColorConsoleLogger.html#warn",
       "kind": "function",
-      "title": "warn( message )",
-      "longname": "Logger.AbstractLogger#warn",
+      "title": "warn( ...message )",
+      "longname": "Logger.ColorConsoleLogger#warn",
       "name": "warn",
-      "tags": "Logger.AbstractLogger#warn AbstractLogger#warn warn",
+      "tags": "Logger.ColorConsoleLogger#warn ColorConsoleLogger#warn warn",
       "summary": "",
       "description": "Log a message in warn level"
     }

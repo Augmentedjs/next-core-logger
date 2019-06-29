@@ -3,8 +3,7 @@ import Level from "./level.js";
 
 /**
  * Augmented Abstract Logger
- * @param {Logger.Level} l The level to initialize the logger with
- * @memberof Logger
+ * @param {Level} l The level to initialize the logger with
  * @abstract
  */
 class AbstractLogger {
@@ -24,60 +23,45 @@ class AbstractLogger {
   };
 
   /**
-   * log a message
+   * log a message with default level
    * @param {string} message The message to log
    * @param {Logger.Level} level The level of the log message
-   * @returns {string} The message
+   * @returns {Any} The message
    */
-  log(message, level) {
-    let m = "";
-    if (message) {
-      if (!level) {
-        level = Level.INFO;
-      }
-      if (this.loggerLevel === Level.DEBUG && level === Level.DEBUG) {
-        m = this._logMe(`${this._getLogTime()}${this.OPEN_GROUP}DEBUG${this.CLOSE_GROUP}${message}`, level);
-      } else if (level === Level.ERROR) {
-        m = this._logMe(`${this._getLogTime()}${this.OPEN_GROUP}ERROR${this.CLOSE_GROUP}${message}`, level);
-      } else if (level === Level.WARN) {
-        m = this._logMe(`${this._getLogTime()}${this.OPEN_GROUP}WARN ${this.CLOSE_GROUP}${message}`, level);
-      } else if (this.loggerLevel === Level.DEBUG || this.loggerLevel === Level.INFO) {
-        m = this._logMe(`${this._getLogTime()}${this.OPEN_GROUP}INFO ${this.CLOSE_GROUP}${message}`, level);
-      }
-    }
-    return m;
+  log(...message) {
+    return this._logMe(Level.INFO, `${this._getLogTime()}${this.OPEN_GROUP}INFO ${this.CLOSE_GROUP}`, ...message);
   };
 
   /**
    * Logs a message in info level
-   * @param {string} message
+   * @param {Any} message
    */
-  info(message) {
-    this.log(message, Level.INFO);
+  info(...message) {
+    return this._logMe(Level.INFO, `${this._getLogTime()}${this.OPEN_GROUP}INFO ${this.CLOSE_GROUP}`, ...message);
   };
 
   /**
    * Log a message in error level
-   * @param {string} message
+   * @param {Any} message
    */
-  error(message) {
-    this.log(message, Level.ERROR);
+  error(...message) {
+    return this._logMe(Level.ERROR, `${this._getLogTime()}${this.OPEN_GROUP}ERROR ${this.CLOSE_GROUP}`, ...message);
   };
 
   /**
    * Log a message in debug level
-   * @param {string} message
+   * @param {Any} message
    */
-  debug(message) {
-    this.log(message, Level.DEBUG);
+  debug(...message) {
+    return this._logMe(Level.DEBUG, `${this._getLogTime()}${this.OPEN_GROUP}DEBUG ${this.CLOSE_GROUP}`, ...message);
   };
 
   /**
    * Log a message in warn level
-   * @param {string} message
+   * @param {Any} message
    */
-  warn(message) {
-    this.log(message, Level.WARN);
+  warn(...message) {
+    return this._logMe(Level.WARN, `${this._getLogTime()}${this.OPEN_GROUP}WARN ${this.CLOSE_GROUP}`, ...message);
   };
 
   /**
@@ -85,11 +69,11 @@ class AbstractLogger {
    * override this in an instance
    * @example _logMe(message, level) { ... };
    * @method _logMe
-   * @param {string} message The message to log
    * @param {string} level The level to log to
+   * @param {Any} message The message(s) to log
    * @returns {string} The message
    */
-   _logMe(message, level) {};
+   _logMe(level, ...message) {};
 };
 
 export default AbstractLogger;

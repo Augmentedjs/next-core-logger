@@ -6,7 +6,6 @@
  * @property {Symbol} DEBUG The debug level
  * @property {Symbol} ERROR The error level
  * @property {Symbol} WARN The warning level
- * @memberof Logger
  */
 const Level = {};
 Level.INFO = Symbol("info");
