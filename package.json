@@ -28,6 +28,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
+    "@babel/register": "^7.7.7",
     "chai": "^4.2.0",
     "documentation": "^12.1.4",
     "foodoc": "0.0.9",
@@ -38,10 +39,7 @@
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },
-  "dependencies": {
-    "@babel/register": "^7.7.7",
-    "next-core-utilities": "^2.8.0"
-  },
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/Augmentedjs/next-core-logger/issues"
   },

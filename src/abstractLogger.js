@@ -1,4 +1,3 @@
-import { pad } from "next-core-utilities";
 import Level from "./level.js";
 
 /**
@@ -19,7 +18,7 @@ class AbstractLogger {
   _getLogTime() {
     const now = new Date();
     const s = `${now.getFullYear()}${this.DATE_SEPERATOR}${(now.getMonth() + 1)}${this.DATE_SEPERATOR}${now.getDate()} ${now.getHours()}${this.TIME_SEPERATOR}${now.getMinutes()}${this.TIME_SEPERATOR}${now.getSeconds()}${this.TIME_SEPERATOR}${now.getMilliseconds()}`;
-    return pad("                        ", s, false);
+    return s.padEnd(23, " ");
   };
 
   /**
@@ -45,7 +44,7 @@ class AbstractLogger {
    * @param {Any} message
    */
   error(...message) {
-    return this._logMe(Level.ERROR, `${this._getLogTime()}${this.OPEN_GROUP}ERROR ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.ERROR, `${this._getLogTime()}${this.OPEN_GROUP}ERROR${this.CLOSE_GROUP}`, ...message);
   };
 
   /**
@@ -53,7 +52,7 @@ class AbstractLogger {
    * @param {Any} message
    */
   debug(...message) {
-    return this._logMe(Level.DEBUG, `${this._getLogTime()}${this.OPEN_GROUP}DEBUG ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.DEBUG, `${this._getLogTime()}${this.OPEN_GROUP}DEBUG${this.CLOSE_GROUP}`, ...message);
   };
 
   /**
