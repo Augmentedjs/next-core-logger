@@ -1,9 +1,10 @@
+<!-- start:source.tmpl.hbs -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-		<title>LoggerFactory</title>
+		<title>basicLogger.js</title>
 		<link rel="icon" type="image/png" href="favicon.png"/>
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -42,7 +43,7 @@
 			</style>
 		<script type="text/javascript">
 			window.TEMPLATE_OPTIONS = {"includeDate":true,"dateFormat":"ddd MMM Do YYYY","systemName":"Augmented.js Next Core","systemSummary":"Augmented.js Next Core - Simply Development.","systemLogo":"img/jensen-silo-circle-small.png","systemColor":"#607D8B","navMembers":[{"kind":"class","title":"Classes","summary":"All documented classes."},{"kind":"external","title":"Externals","summary":"All documented external members."},{"kind":"global","title":"Globals","summary":"All documented globals."},{"kind":"mixin","title":"Mixins","summary":"All documented mixins."},{"kind":"interface","title":"Interfaces","summary":"All documented interfaces."},{"kind":"module","title":"Modules","summary":"All documented modules."},{"kind":"namespace","title":"Namespaces","summary":"All documented namespaces."},{"kind":"tutorial","title":"Tutorials","summary":"All available tutorials."}],"footer":"<a href='http://www.augmentedjs.com'>Augmented.js Homepage</a>","copyright":"","linenums":true,"collapseSymbols":false,"inverseNav":true,"inlineNav":false,"outputSourceFiles":true,"sourceRootPath":null,"disablePackagePath":true,"outputSourcePath":true,"showTableOfContents":true,"showAccessFilter":true,"analytics":null,"methodHeadingReturns":false,"sort":"linenum, longname, version, since","search":true,"favicon":"favicon.png","stylesheets":[],"scripts":[],"monospaceLinks":false,"cleverLinks":false,"logoFile":"public/images/jensen-silo-circle-small.png","navType":"vertical","protocol":"html://"};
-			window.DOCLET_TOC_ENABLED = true;
+			window.DOCLET_TOC_ENABLED = false;
 			window.DOCLET_AFILTER_ENABLED = false;
 		</script>
 </head>
@@ -98,143 +99,82 @@
 	</header>
 	<!-- end:navbar.hbs -->		<div class="page-header">
 			<div class="container">
-				<span class="kind">class</span>
-				<h1><span class="name">LoggerFactory</span></h1>
+				<span class="kind">source</span>
+				<h1><span class="name">basicLogger.js</span></h1>
 			</div>
 		</div>
 	<div class="container content">
 		<div class="row">
-			<div class="col-md-9 main-content">
-						<ol class="breadcrumb">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="list_class.html">Classes</a></li>
-							<li class="active">LoggerFactory</li>
-						</ol>
-					<section>
-							<dl class="symbol primary">
-								<dt class="symbol-title class">
-			<h2 class="class"><span class="signature-new">new&nbsp;</span><span class="name">LoggerFactory</span><span class="signature-params">()</span></h2>
-</dt>
-<dd class="symbol-details class" style="max-height: 9999px;">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description classdesc"><p>A logger factory for creating a logger instance</p></div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="loggerFactory.js.html">loggerFactory.js</a>, <a href="loggerFactory.js.html#line-10">line 10</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-							</dl>
-							<article class="secondary">
-									<h3>Methods</h3>
-									<dl class="symbol">
-											<hr/>
-											<dt class="symbol-title function public">
-			<h4 id=".getLogger" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">getLogger</span><span class="signature-params">( <span class="signature-param">type</span>, <span class="signature-param">level</span>&nbsp;)</span></h4>
-		</dt>
-<dd class="symbol-details function public">
-	<div class="symbol-details-inner">
-			<div class="callout callout-primary"><h5>Description</h5>		<div class="description"><p>getLogger - get an instance of a logger</p></div>
-			</div>			<div class="callout callout-info">
-				<h5>Parameters</h5>
-				<table class="params table table-striped">
-					<thead>
-					<tr>
-							<th>Name</th>
-						<th>Type</th>
-						<th class="last">Description</th>
-					</tr>
-					</thead>
-					<tbody>
-						<tr>
-								<td><code>type</code></td>
-							<td><span class="param-type"><a href="global.html#Type">Type</a></span></td>
-							<td class="last">
-									<p>Type of logger instance</p>
-							</td>
-						</tr>
-						<tr>
-								<td><code>level</code></td>
-							<td><span class="param-type"><a href="global.html#Level">Level</a></span></td>
-							<td class="last">
-									<p>Level to set the logger to</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+			<div class="col-md-12 main-content">
+		<section class="source-section">
+			<article></article>
+			<pre class="prettyprint source language-javascript line-numbers"><code class="language-javascript">import Level from "./level.js";
+import ConsoleLogger from "./consoleLogger.js";
+
+/**
+ * Basic Console Logger (level off extra text)
+ * @param {Level} l The level to initialize the logger with
+ * @memberof Logger
+ * @extends ConsoleLogger
+ */
+class BasicLogger extends  ConsoleLogger {
+  constructor(l) {
+    super(l);
+    this.loggerLevel = (l) ? l : Level.INFO;
+    this.label = Level;
+    this.TIME_SEPERATOR = ":";
+    this.DATE_SEPERATOR = "-";
+    this.OPEN_GROUP = " [ ";
+    this.CLOSE_GROUP = " ] ";
+  };
+
+  /**
+   * log a message with default level
+   * @param {string} message The message to log
+   * @param {Logger.Level} level The level of the log message
+   * @returns {Any} The message
+   */
+  log(...message) {
+    return this.info(...message);
+  };
+
+  /**
+   * Logs a message in info level
+   * @param {Any} message
+   */
+  info(...message) {
+    return this._logMe(Level.INFO, `${this.OPEN_GROUP}INFO  ${this.CLOSE_GROUP}`, ...message);
+  };
+
+  /**
+   * Log a message in error level
+   * @param {Any} message
+   */
+  error(...message) {
+    return this._logMe(Level.ERROR, `${this.OPEN_GROUP}ERROR ${this.CLOSE_GROUP}`, ...message);
+  };
+
+  /**
+   * Log a message in debug level
+   * @param {Any} message
+   */
+  debug(...message) {
+    return this._logMe(Level.DEBUG, `${this.OPEN_GROUP}DEBUG ${this.CLOSE_GROUP}`, ...message);
+  };
+
+  /**
+   * Log a message in warn level
+   * @param {Any} message
+   */
+  warn(...message) {
+    return this._logMe(Level.WARN, `${this.OPEN_GROUP}WARN  ${this.CLOSE_GROUP}`, ...message);
+  };
+};
+
+export default BasicLogger;
+</code></pre>
+		</section>
 			</div>
-			<div class="callout callout-success"><h5>Returns</h5>		<form class="form-horizontal returns">
-							<div class="form-group">
-								<label class="col-sm-3 control-label returns-type"><span class="param-type"><a href="AbstractLogger.html">AbstractLogger</a></span></label>
-								<div class="col-sm-9">
-									<div class="form-control-static returns-description"><p>logger Instance of a logger by istance type</p></div>
-								</div>
-							</div>
-					</form>
-			</div>			<div class="callout callout-example"><h5>Examples</h5>		<div class="example-code">
-						<pre class="prettyprint source language-javascript"><code class="language-javascript">LoggerFactory.getLogger(Type.CONSOLE, Level.DEBUG);</code></pre>
-					</div>
-			</div>			<div class="callout callout-default"><h5>Details</h5>		<form class="form-horizontal details">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-							<!-- source -->
-							<div class="form-group">
-								<label class="col-sm-3 control-label">Source</label>
-								<div class="col-sm-9">
-									<p class="form-control-static"><a href="loggerFactory.js.html">loggerFactory.js</a>, <a href="loggerFactory.js.html#line-19">line 19</a></p>
-								</div>
-							</div>
-			
-			
-			
-			
-					</form>
-			</div>	</div>
-</dd>
-									</dl>
-							</article>
-					</section>
-			</div>
-				<div class="col-md-3 side-content">
-					<nav class="toc hidden-print hidden-sm hidden-xs"></nav>
-				</div>
 		</div>
 	</div>
 	<footer>
@@ -266,3 +206,4 @@
 	
 </body>
 </html>
+<!-- end:source.tmpl.hbs -->

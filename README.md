@@ -27,9 +27,21 @@ Augmented.js Next Core - Logger
     -   [Parameters](#parameters-7)
 -   [ColorConsoleLogger](#colorconsolelogger)
     -   [Parameters](#parameters-8)
+-   [BasicLogger](#basiclogger)
+    -   [Parameters](#parameters-9)
+    -   [log](#log-1)
+        -   [Parameters](#parameters-10)
+    -   [info](#info-1)
+        -   [Parameters](#parameters-11)
+    -   [error](#error-1)
+        -   [Parameters](#parameters-12)
+    -   [debug](#debug-1)
+        -   [Parameters](#parameters-13)
+    -   [warn](#warn-1)
+        -   [Parameters](#parameters-14)
 -   [LoggerFactory](#loggerfactory)
     -   [getLogger](#getlogger)
-        -   [Parameters](#parameters-9)
+        -   [Parameters](#parameters-15)
         -   [Examples](#examples-1)
 -   [Type](#type)
     -   [Properties](#properties)
@@ -125,6 +137,59 @@ Color Console Logger
 
 -   `l` **[Level](#level)** The level to initialize the logger with
 
+## BasicLogger
+
+**Extends ConsoleLogger**
+
+Basic Console Logger (level off extra text)
+
+### Parameters
+
+-   `l` **[Level](#level)** The level to initialize the logger with
+
+### log
+
+log a message with default level
+
+#### Parameters
+
+-   `message` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The message to log
+-   `level` **Logger.Level** The level of the log message
+
+Returns **Any** The message
+
+### info
+
+Logs a message in info level
+
+#### Parameters
+
+-   `message` **Any** 
+
+### error
+
+Log a message in error level
+
+#### Parameters
+
+-   `message` **Any** 
+
+### debug
+
+Log a message in debug level
+
+#### Parameters
+
+-   `message` **Any** 
+
+### warn
+
+Log a message in warn level
+
+#### Parameters
+
+-   `message` **Any** 
+
 ## LoggerFactory
 
 A logger factory for creating a logger instance
@@ -154,8 +219,9 @@ Type: [Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Globa
 
 ### Properties
 
--   `CONSOLE` **[Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol)** The console logger (HTML5 console)
--   `COLOR_CONSOLE` **[Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol)** The color console logger (HTML5 console)
+-   `CONSOLE` **[Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol)** The console logger (terminal)
+-   `COLOR_CONSOLE` **[Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol)** The color console logger (terminal)
+-   `BASIC` **[Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol)** The basic console logger (terminal)
 
 ## Level
 

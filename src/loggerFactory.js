@@ -1,5 +1,6 @@
 import ConsoleLogger from "./consoleLogger.js";
 import ColorConsoleLogger from "./colorConsoleLogger.js";
+import BasicLogger from "./basicLogger.js";
 import Type from "./type.js";
 
 /**
@@ -20,6 +21,8 @@ class LoggerFactory {
       return new ConsoleLogger(level);
     } else if (type === Type.COLOR_CONSOLE) {
       return new ColorConsoleLogger(level);
+    } else if (type === Type.BASIC) {
+      return new BasicLogger(level);
     }
   };
 };
