@@ -39,9 +39,21 @@ Augmented.js Next Core - Logger
         -   [Parameters](#parameters-13)
     -   [warn](#warn-1)
         -   [Parameters](#parameters-14)
+-   [IconLogger](#iconlogger)
+    -   [Parameters](#parameters-15)
+    -   [log](#log-2)
+        -   [Parameters](#parameters-16)
+    -   [info](#info-2)
+        -   [Parameters](#parameters-17)
+    -   [error](#error-2)
+        -   [Parameters](#parameters-18)
+    -   [debug](#debug-2)
+        -   [Parameters](#parameters-19)
+    -   [warn](#warn-2)
+        -   [Parameters](#parameters-20)
 -   [LoggerFactory](#loggerfactory)
     -   [getLogger](#getlogger)
-        -   [Parameters](#parameters-15)
+        -   [Parameters](#parameters-21)
         -   [Examples](#examples-1)
 -   [Type](#type)
     -   [Properties](#properties)
@@ -142,6 +154,59 @@ Color Console Logger
 **Extends ConsoleLogger**
 
 Basic Console Logger (level off extra text)
+
+### Parameters
+
+-   `l` **[Level](#level)** The level to initialize the logger with
+
+### log
+
+log a message with default level
+
+#### Parameters
+
+-   `message` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The message to log
+-   `level` **Logger.Level** The level of the log message
+
+Returns **Any** The message
+
+### info
+
+Logs a message in info level
+
+#### Parameters
+
+-   `message` **Any** 
+
+### error
+
+Log a message in error level
+
+#### Parameters
+
+-   `message` **Any** 
+
+### debug
+
+Log a message in debug level
+
+#### Parameters
+
+-   `message` **Any** 
+
+### warn
+
+Log a message in warn level
+
+#### Parameters
+
+-   `message` **Any** 
+
+## IconLogger
+
+**Extends ColorConsoleLogger**
+
+Color Icon Console Logger
 
 ### Parameters
 

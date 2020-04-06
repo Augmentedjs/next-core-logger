@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-		<title>basicLogger.js</title>
+		<title>iconLogger.js</title>
 		<link rel="icon" type="image/png" href="favicon.png"/>
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -101,7 +101,7 @@
 	<!-- end:navbar.hbs -->		<div class="page-header">
 			<div class="container">
 				<span class="kind">source</span>
-				<h1><span class="name">basicLogger.js</span></h1>
+				<h1><span class="name">iconLogger.js</span></h1>
 			</div>
 		</div>
 	<div class="container content">
@@ -109,16 +109,15 @@
 			<div class="col-md-12 main-content">
 		<section class="source-section">
 			<article></article>
-			<pre class="prettyprint source language-javascript line-numbers"><code class="language-javascript">import Level from "./level.js";
-import ConsoleLogger from "./consoleLogger.js";
+			<pre class="prettyprint source language-javascript line-numbers"><code class="language-javascript">import ColorConsoleLogger from "./colorConsoleLogger.js";
+import Level from "./level.js";
 
 /**
- * Basic Console Logger (level off extra text)
+ * Color Icon Console Logger
  * @param {Level} l The level to initialize the logger with
- * @memberof Logger
- * @extends ConsoleLogger
+ * @extends ColorConsoleLogger
  */
-class BasicLogger extends  ConsoleLogger {
+class IconLogger extends ColorConsoleLogger {
   constructor(l) {
     super(l);
     this.loggerLevel = (l) ? l : Level.INFO;
@@ -127,6 +126,12 @@ class BasicLogger extends  ConsoleLogger {
     this.DATE_SEPERATOR = "-";
     this.OPEN_GROUP = " [ ";
     this.CLOSE_GROUP = " ] ";
+  };
+
+  _getLogTime() {
+    const now = new Date();
+    const s = `${now.getFullYear()}${this.DATE_SEPERATOR}${(now.getMonth() + 1)}${this.DATE_SEPERATOR}${now.getDate()} ${now.getHours()}${this.TIME_SEPERATOR}${now.getMinutes()}${this.TIME_SEPERATOR}${now.getSeconds()}${this.TIME_SEPERATOR}${now.getMilliseconds()}`;
+    return s.padEnd(23, " ");
   };
 
   /**
@@ -144,7 +149,7 @@ class BasicLogger extends  ConsoleLogger {
    * @param {Any} message
    */
   info(...message) {
-    return this._logMe(Level.INFO, `${this.OPEN_GROUP}INFO  ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.INFO, `${this._getLogTime()} ⓘ `, ...message);
   };
 
   /**
@@ -152,7 +157,7 @@ class BasicLogger extends  ConsoleLogger {
    * @param {Any} message
    */
   error(...message) {
-    return this._logMe(Level.ERROR, `${this.OPEN_GROUP}ERROR ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.ERROR, `${this._getLogTime()} ⓔ `, ...message);
   };
 
   /**
@@ -160,7 +165,7 @@ class BasicLogger extends  ConsoleLogger {
    * @param {Any} message
    */
   debug(...message) {
-    return this._logMe(Level.DEBUG, `${this.OPEN_GROUP}DEBUG ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.DEBUG, `${this._getLogTime()} ⓓ `, ...message);
   };
 
   /**
@@ -168,11 +173,11 @@ class BasicLogger extends  ConsoleLogger {
    * @param {Any} message
    */
   warn(...message) {
-    return this._logMe(Level.WARN, `${this.OPEN_GROUP}WARN  ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.WARN, `${this._getLogTime()} ⓦ `, ...message);
   };
 };
 
-export default BasicLogger;
+module.exports = IconLogger;
 </code></pre>
 		</section>
 			</div>

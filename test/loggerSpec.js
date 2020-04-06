@@ -1,5 +1,3 @@
-
-
 describe("Given a logger factory", () => {
 	it("is defined", () => {
 		expect(Logger.LoggerFactory).to.not.be.undefined;

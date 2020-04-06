@@ -152,6 +152,54 @@
           "messag",
           "warn"
         ],
+        "IconLogger.html": [
+          "class",
+          "color",
+          "consol",
+          "icon",
+          "iconlogg",
+          "logger"
+        ],
+        "IconLogger.html#log": [
+          "default",
+          "function",
+          "iconlogger#log",
+          "level",
+          "log",
+          "messag"
+        ],
+        "IconLogger.html#info": [
+          "function",
+          "iconlogger#info",
+          "info",
+          "level",
+          "log",
+          "messag"
+        ],
+        "IconLogger.html#error": [
+          "error",
+          "function",
+          "iconlogger#error",
+          "level",
+          "log",
+          "messag"
+        ],
+        "IconLogger.html#debug": [
+          "debug",
+          "function",
+          "iconlogger#debug",
+          "level",
+          "log",
+          "messag"
+        ],
+        "IconLogger.html#warn": [
+          "function",
+          "iconlogger#warn",
+          "level",
+          "log",
+          "messag",
+          "warn"
+        ],
         "LoggerFactory.html": [
           "class",
           "creat",
@@ -280,7 +328,7 @@
           "warn"
         ]
       },
-      "length": 29
+      "length": 35
     },
     "tokenStore": {
       "root": {
@@ -495,6 +543,10 @@
                         "ref": "ConsoleLogger.html",
                         "tf": 25
                       },
+                      "IconLogger.html": {
+                        "ref": "IconLogger.html",
+                        "tf": 12.5
+                      },
                       "Logger.BasicLogger.html": {
                         "ref": "Logger.BasicLogger.html",
                         "tf": 8.333333333333332
@@ -631,6 +683,10 @@
                 "docs": {},
                 "r": {
                   "docs": {
+                    "IconLogger.html": {
+                      "ref": "IconLogger.html",
+                      "tf": 12.5
+                    },
                     "Logger.ColorConsoleLogger.html": {
                       "ref": "Logger.ColorConsoleLogger.html",
                       "tf": 16.666666666666664
@@ -795,6 +851,10 @@
                       "ref": "ConsoleLogger.html",
                       "tf": 110
                     },
+                    "IconLogger.html": {
+                      "ref": "IconLogger.html",
+                      "tf": 110
+                    },
                     "LoggerFactory.html": {
                       "ref": "LoggerFactory.html",
                       "tf": 110
@@ -872,6 +932,10 @@
                           "ref": "ConsoleLogger.html#log",
                           "tf": 12.5
                         },
+                        "IconLogger.html#log": {
+                          "ref": "IconLogger.html#log",
+                          "tf": 12.5
+                        },
                         "Logger.BasicLogger.html#log": {
                           "ref": "Logger.BasicLogger.html#log",
                           "tf": 12.5
@@ -898,6 +962,10 @@
                     },
                     "ConsoleLogger.html#debug": {
                       "ref": "ConsoleLogger.html#debug",
+                      "tf": 712.5
+                    },
+                    "IconLogger.html#debug": {
+                      "ref": "IconLogger.html#debug",
                       "tf": 712.5
                     },
                     "Logger.BasicLogger.html#debug": {
@@ -974,6 +1042,10 @@
                     "ref": "ConsoleLogger.html#info",
                     "tf": 712.5
                   },
+                  "IconLogger.html#info": {
+                    "ref": "IconLogger.html#info",
+                    "tf": 712.5
+                  },
                   "Logger.BasicLogger.html#info": {
                     "ref": "Logger.BasicLogger.html#info",
                     "tf": 662.5
@@ -1002,6 +1074,134 @@
                         "LoggerFactory.html#.getLogger": {
                           "ref": "LoggerFactory.html#.getLogger",
                           "tf": 16.666666666666664
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "c": {
+            "docs": {},
+            "o": {
+              "docs": {},
+              "n": {
+                "docs": {
+                  "IconLogger.html": {
+                    "ref": "IconLogger.html",
+                    "tf": 12.5
+                  }
+                },
+                "l": {
+                  "docs": {},
+                  "o": {
+                    "docs": {},
+                    "g": {
+                      "docs": {},
+                      "g": {
+                        "docs": {
+                          "IconLogger.html": {
+                            "ref": "IconLogger.html",
+                            "tf": 1900
+                          }
+                        },
+                        "e": {
+                          "docs": {},
+                          "r": {
+                            "docs": {},
+                            "#": {
+                              "docs": {},
+                              "l": {
+                                "docs": {},
+                                "o": {
+                                  "docs": {},
+                                  "g": {
+                                    "docs": {
+                                      "IconLogger.html#log": {
+                                        "ref": "IconLogger.html#log",
+                                        "tf": 1150
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "i": {
+                                "docs": {},
+                                "n": {
+                                  "docs": {},
+                                  "f": {
+                                    "docs": {},
+                                    "o": {
+                                      "docs": {
+                                        "IconLogger.html#info": {
+                                          "ref": "IconLogger.html#info",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "e": {
+                                "docs": {},
+                                "r": {
+                                  "docs": {},
+                                  "r": {
+                                    "docs": {},
+                                    "o": {
+                                      "docs": {},
+                                      "r": {
+                                        "docs": {
+                                          "IconLogger.html#error": {
+                                            "ref": "IconLogger.html#error",
+                                            "tf": 1150
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "d": {
+                                "docs": {},
+                                "e": {
+                                  "docs": {},
+                                  "b": {
+                                    "docs": {},
+                                    "u": {
+                                      "docs": {},
+                                      "g": {
+                                        "docs": {
+                                          "IconLogger.html#debug": {
+                                            "ref": "IconLogger.html#debug",
+                                            "tf": 1150
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "w": {
+                                "docs": {},
+                                "a": {
+                                  "docs": {},
+                                  "r": {
+                                    "docs": {},
+                                    "n": {
+                                      "docs": {
+                                        "IconLogger.html#warn": {
+                                          "ref": "IconLogger.html#warn",
+                                          "tf": 1150
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
                         }
                       }
                     }
@@ -1200,6 +1400,26 @@
                   "ref": "ConsoleLogger.html#warn",
                   "tf": 12.5
                 },
+                "IconLogger.html#log": {
+                  "ref": "IconLogger.html#log",
+                  "tf": 695.8333333333334
+                },
+                "IconLogger.html#info": {
+                  "ref": "IconLogger.html#info",
+                  "tf": 12.5
+                },
+                "IconLogger.html#error": {
+                  "ref": "IconLogger.html#error",
+                  "tf": 12.5
+                },
+                "IconLogger.html#debug": {
+                  "ref": "IconLogger.html#debug",
+                  "tf": 12.5
+                },
+                "IconLogger.html#warn": {
+                  "ref": "IconLogger.html#warn",
+                  "tf": 12.5
+                },
                 "Logger.BasicLogger.html#log": {
                   "ref": "Logger.BasicLogger.html#log",
                   "tf": 645.8333333333334
@@ -1254,6 +1474,10 @@
                       "ConsoleLogger.html": {
                         "ref": "ConsoleLogger.html",
                         "tf": 25
+                      },
+                      "IconLogger.html": {
+                        "ref": "IconLogger.html",
+                        "tf": 12.5
                       },
                       "LoggerFactory.html": {
                         "ref": "LoggerFactory.html",
@@ -1741,6 +1965,26 @@
                       "ref": "ConsoleLogger.html#warn",
                       "tf": 12.5
                     },
+                    "IconLogger.html#log": {
+                      "ref": "IconLogger.html#log",
+                      "tf": 45.83333333333333
+                    },
+                    "IconLogger.html#info": {
+                      "ref": "IconLogger.html#info",
+                      "tf": 12.5
+                    },
+                    "IconLogger.html#error": {
+                      "ref": "IconLogger.html#error",
+                      "tf": 12.5
+                    },
+                    "IconLogger.html#debug": {
+                      "ref": "IconLogger.html#debug",
+                      "tf": 12.5
+                    },
+                    "IconLogger.html#warn": {
+                      "ref": "IconLogger.html#warn",
+                      "tf": 12.5
+                    },
                     "LoggerFactory.html#.getLogger": {
                       "ref": "LoggerFactory.html#.getLogger",
                       "tf": 25
@@ -1849,6 +2093,26 @@
                           },
                           "ConsoleLogger.html#warn": {
                             "ref": "ConsoleLogger.html#warn",
+                            "tf": 110
+                          },
+                          "IconLogger.html#log": {
+                            "ref": "IconLogger.html#log",
+                            "tf": 110
+                          },
+                          "IconLogger.html#info": {
+                            "ref": "IconLogger.html#info",
+                            "tf": 110
+                          },
+                          "IconLogger.html#error": {
+                            "ref": "IconLogger.html#error",
+                            "tf": 110
+                          },
+                          "IconLogger.html#debug": {
+                            "ref": "IconLogger.html#debug",
+                            "tf": 110
+                          },
+                          "IconLogger.html#warn": {
+                            "ref": "IconLogger.html#warn",
                             "tf": 110
                           },
                           "LoggerFactory.html#.getLogger": {
@@ -1979,6 +2243,26 @@
                         "ref": "ConsoleLogger.html#warn",
                         "tf": 62.5
                       },
+                      "IconLogger.html#log": {
+                        "ref": "IconLogger.html#log",
+                        "tf": 45.83333333333333
+                      },
+                      "IconLogger.html#info": {
+                        "ref": "IconLogger.html#info",
+                        "tf": 62.5
+                      },
+                      "IconLogger.html#error": {
+                        "ref": "IconLogger.html#error",
+                        "tf": 62.5
+                      },
+                      "IconLogger.html#debug": {
+                        "ref": "IconLogger.html#debug",
+                        "tf": 62.5
+                      },
+                      "IconLogger.html#warn": {
+                        "ref": "IconLogger.html#warn",
+                        "tf": 62.5
+                      },
                       "Logger.BasicLogger.html#log": {
                         "ref": "Logger.BasicLogger.html#log",
                         "tf": 45.83333333333333
@@ -2044,6 +2328,10 @@
                       "ref": "ConsoleLogger.html#error",
                       "tf": 712.5
                     },
+                    "IconLogger.html#error": {
+                      "ref": "IconLogger.html#error",
+                      "tf": 712.5
+                    },
                     "Logger.BasicLogger.html#error": {
                       "ref": "Logger.BasicLogger.html#error",
                       "tf": 662.5
@@ -2089,6 +2377,10 @@
                   },
                   "ConsoleLogger.html#warn": {
                     "ref": "ConsoleLogger.html#warn",
+                    "tf": 712.5
+                  },
+                  "IconLogger.html#warn": {
+                    "ref": "IconLogger.html#warn",
                     "tf": 712.5
                   },
                   "Logger.BasicLogger.html#warn": {
@@ -2270,7 +2562,7 @@
           }
         }
       },
-      "length": 182
+      "length": 218
     },
     "corpusTokens": [
       "abstract",
@@ -2316,6 +2608,13 @@
       "function",
       "getlogg",
       "global",
+      "icon",
+      "iconlogg",
+      "iconlogger#debug",
+      "iconlogger#error",
+      "iconlogger#info",
+      "iconlogger#log",
+      "iconlogger#warn",
       "index",
       "info",
       "instanc",
@@ -2507,6 +2806,67 @@
       "longname": "ConsoleLogger#warn",
       "name": "warn",
       "tags": "ConsoleLogger#warn warn",
+      "summary": "",
+      "description": "Log a message in warn level"
+    },
+    "IconLogger.html": {
+      "id": "IconLogger.html",
+      "kind": "class",
+      "title": "IconLogger",
+      "longname": "IconLogger",
+      "name": "IconLogger",
+      "tags": "IconLogger",
+      "summary": "",
+      "description": "Color Icon Console Logger",
+      "body": ""
+    },
+    "IconLogger.html#log": {
+      "id": "IconLogger.html#log",
+      "kind": "function",
+      "title": "log( ...message, level )",
+      "longname": "IconLogger#log",
+      "name": "log",
+      "tags": "IconLogger#log log",
+      "summary": "",
+      "description": "log a message with default level"
+    },
+    "IconLogger.html#info": {
+      "id": "IconLogger.html#info",
+      "kind": "function",
+      "title": "info( ...message )",
+      "longname": "IconLogger#info",
+      "name": "info",
+      "tags": "IconLogger#info info",
+      "summary": "",
+      "description": "Logs a message in info level"
+    },
+    "IconLogger.html#error": {
+      "id": "IconLogger.html#error",
+      "kind": "function",
+      "title": "error( ...message )",
+      "longname": "IconLogger#error",
+      "name": "error",
+      "tags": "IconLogger#error error",
+      "summary": "",
+      "description": "Log a message in error level"
+    },
+    "IconLogger.html#debug": {
+      "id": "IconLogger.html#debug",
+      "kind": "function",
+      "title": "debug( ...message )",
+      "longname": "IconLogger#debug",
+      "name": "debug",
+      "tags": "IconLogger#debug debug",
+      "summary": "",
+      "description": "Log a message in debug level"
+    },
+    "IconLogger.html#warn": {
+      "id": "IconLogger.html#warn",
+      "kind": "function",
+      "title": "warn( ...message )",
+      "longname": "IconLogger#warn",
+      "name": "warn",
+      "tags": "IconLogger#warn warn",
       "summary": "",
       "description": "Log a message in warn level"
     },
