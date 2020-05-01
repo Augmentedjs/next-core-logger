@@ -39,21 +39,19 @@ Augmented.js Next Core - Logger
         -   [Parameters](#parameters-13)
     -   [warn](#warn-1)
         -   [Parameters](#parameters-14)
--   [IconLogger](#iconlogger)
+-   [log](#log-2)
     -   [Parameters](#parameters-15)
-    -   [log](#log-2)
-        -   [Parameters](#parameters-16)
-    -   [info](#info-2)
-        -   [Parameters](#parameters-17)
-    -   [error](#error-2)
-        -   [Parameters](#parameters-18)
-    -   [debug](#debug-2)
-        -   [Parameters](#parameters-19)
-    -   [warn](#warn-2)
-        -   [Parameters](#parameters-20)
+-   [info](#info-2)
+    -   [Parameters](#parameters-16)
+-   [error](#error-2)
+    -   [Parameters](#parameters-17)
+-   [debug](#debug-2)
+    -   [Parameters](#parameters-18)
+-   [warn](#warn-2)
+    -   [Parameters](#parameters-19)
 -   [LoggerFactory](#loggerfactory)
     -   [getLogger](#getlogger)
-        -   [Parameters](#parameters-21)
+        -   [Parameters](#parameters-20)
         -   [Examples](#examples-1)
 -   [Type](#type)
     -   [Properties](#properties)
@@ -202,56 +200,46 @@ Log a message in warn level
 
 -   `message` **Any** 
 
-## IconLogger
-
-**Extends ColorConsoleLogger**
-
-Color Icon Console Logger
-
-### Parameters
-
--   `l` **[Level](#level)** The level to initialize the logger with
-
-### log
+## log
 
 log a message with default level
 
-#### Parameters
+### Parameters
 
 -   `message` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The message to log
 -   `level` **Logger.Level** The level of the log message
 
 Returns **Any** The message
 
-### info
+## info
 
 Logs a message in info level
 
-#### Parameters
+### Parameters
 
 -   `message` **Any** 
 
-### error
+## error
 
 Log a message in error level
 
-#### Parameters
+### Parameters
 
 -   `message` **Any** 
 
-### debug
+## debug
 
 Log a message in debug level
 
-#### Parameters
+### Parameters
 
 -   `message` **Any** 
 
-### warn
+## warn
 
 Log a message in warn level
 
-#### Parameters
+### Parameters
 
 -   `message` **Any** 
 
@@ -287,6 +275,7 @@ Type: [Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Globa
 -   `CONSOLE` **[Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol)** The console logger (terminal)
 -   `COLOR_CONSOLE` **[Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol)** The color console logger (terminal)
 -   `BASIC` **[Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol)** The basic console logger (terminal)
+-   `ICON` **[Symbol](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol)** The icon console logger (terminal)
 
 ## Level
 

@@ -1,11 +1,6 @@
 import ColorConsoleLogger from "./colorConsoleLogger.js";
 import Level from "./level.js";
 
-/**
- * Color Icon Console Logger
- * @param {Level} l The level to initialize the logger with
- * @extends ColorConsoleLogger
- */
 class IconLogger extends ColorConsoleLogger {
   constructor(l) {
     super(l);
@@ -38,7 +33,7 @@ class IconLogger extends ColorConsoleLogger {
    * @param {Any} message
    */
   info(...message) {
-    return this._logMe(Level.INFO, `${this._getLogTime()} ⓘ `, ...message);
+    return this._logMe(Level.INFO, `${this._getLogTime()}𝒊`, ...message);
   };
 
   /**
@@ -46,7 +41,7 @@ class IconLogger extends ColorConsoleLogger {
    * @param {Any} message
    */
   error(...message) {
-    return this._logMe(Level.ERROR, `${this._getLogTime()} ⓔ `, ...message);
+    return this._logMe(Level.ERROR, `${this._getLogTime()}𝒆`, ...message);
   };
 
   /**
@@ -54,7 +49,7 @@ class IconLogger extends ColorConsoleLogger {
    * @param {Any} message
    */
   debug(...message) {
-    return this._logMe(Level.DEBUG, `${this._getLogTime()} ⓓ `, ...message);
+    return this._logMe(Level.DEBUG, `${this._getLogTime()}𝒅`, ...message);
   };
 
   /**
@@ -62,7 +57,7 @@ class IconLogger extends ColorConsoleLogger {
    * @param {Any} message
    */
   warn(...message) {
-    return this._logMe(Level.WARN, `${this._getLogTime()} ⓦ `, ...message);
+    return this._logMe(Level.WARN, `${this._getLogTime()}𝒘`, ...message);
   };
 };
 

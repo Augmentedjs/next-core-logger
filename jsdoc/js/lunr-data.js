@@ -152,72 +152,6 @@ window.lunrData = {
           "messag",
           "warn"
         ],
-        "IconLogger.html": [
-          "class",
-          "color",
-          "consol",
-          "icon",
-          "iconlogg",
-          "logger"
-        ],
-        "IconLogger.html#log": [
-          "default",
-          "function",
-          "iconlogger#log",
-          "level",
-          "log",
-          "messag"
-        ],
-        "IconLogger.html#info": [
-          "function",
-          "iconlogger#info",
-          "info",
-          "level",
-          "log",
-          "messag"
-        ],
-        "IconLogger.html#error": [
-          "error",
-          "function",
-          "iconlogger#error",
-          "level",
-          "log",
-          "messag"
-        ],
-        "IconLogger.html#debug": [
-          "debug",
-          "function",
-          "iconlogger#debug",
-          "level",
-          "log",
-          "messag"
-        ],
-        "IconLogger.html#warn": [
-          "function",
-          "iconlogger#warn",
-          "level",
-          "log",
-          "messag",
-          "warn"
-        ],
-        "LoggerFactory.html": [
-          "class",
-          "creat",
-          "factori",
-          "instanc",
-          "logger",
-          "loggerfactori"
-        ],
-        "LoggerFactory.html#.getLogger": [
-          "function",
-          "getlogg",
-          "instanc",
-          "level",
-          "logger",
-          "loggerfactory.getlogg",
-          "lt;static&gt",
-          "type"
-        ],
         "Logger.BasicLogger.html": [
           "basic",
           "basiclogg",
@@ -326,9 +260,27 @@ window.lunrData = {
           "logger.colorconsolelogger#warn",
           "messag",
           "warn"
+        ],
+        "LoggerFactory.html": [
+          "class",
+          "creat",
+          "factori",
+          "instanc",
+          "logger",
+          "loggerfactori"
+        ],
+        "LoggerFactory.html#.getLogger": [
+          "function",
+          "getlogg",
+          "instanc",
+          "level",
+          "logger",
+          "loggerfactory.getlogg",
+          "lt;static&gt",
+          "type"
         ]
       },
-      "length": 35
+      "length": 29
     },
     "tokenStore": {
       "root": {
@@ -543,10 +495,6 @@ window.lunrData = {
                         "ref": "ConsoleLogger.html",
                         "tf": 25
                       },
-                      "IconLogger.html": {
-                        "ref": "IconLogger.html",
-                        "tf": 12.5
-                      },
                       "Logger.BasicLogger.html": {
                         "ref": "Logger.BasicLogger.html",
                         "tf": 8.333333333333332
@@ -683,10 +631,6 @@ window.lunrData = {
                 "docs": {},
                 "r": {
                   "docs": {
-                    "IconLogger.html": {
-                      "ref": "IconLogger.html",
-                      "tf": 12.5
-                    },
                     "Logger.ColorConsoleLogger.html": {
                       "ref": "Logger.ColorConsoleLogger.html",
                       "tf": 16.666666666666664
@@ -851,20 +795,16 @@ window.lunrData = {
                       "ref": "ConsoleLogger.html",
                       "tf": 110
                     },
-                    "IconLogger.html": {
-                      "ref": "IconLogger.html",
-                      "tf": 110
-                    },
-                    "LoggerFactory.html": {
-                      "ref": "LoggerFactory.html",
-                      "tf": 110
-                    },
                     "Logger.BasicLogger.html": {
                       "ref": "Logger.BasicLogger.html",
                       "tf": 110
                     },
                     "Logger.ColorConsoleLogger.html": {
                       "ref": "Logger.ColorConsoleLogger.html",
+                      "tf": 110
+                    },
+                    "LoggerFactory.html": {
+                      "ref": "LoggerFactory.html",
                       "tf": 110
                     }
                   }
@@ -932,10 +872,6 @@ window.lunrData = {
                           "ref": "ConsoleLogger.html#log",
                           "tf": 12.5
                         },
-                        "IconLogger.html#log": {
-                          "ref": "IconLogger.html#log",
-                          "tf": 12.5
-                        },
                         "Logger.BasicLogger.html#log": {
                           "ref": "Logger.BasicLogger.html#log",
                           "tf": 12.5
@@ -962,10 +898,6 @@ window.lunrData = {
                     },
                     "ConsoleLogger.html#debug": {
                       "ref": "ConsoleLogger.html#debug",
-                      "tf": 712.5
-                    },
-                    "IconLogger.html#debug": {
-                      "ref": "IconLogger.html#debug",
                       "tf": 712.5
                     },
                     "Logger.BasicLogger.html#debug": {
@@ -1042,10 +974,6 @@ window.lunrData = {
                     "ref": "ConsoleLogger.html#info",
                     "tf": 712.5
                   },
-                  "IconLogger.html#info": {
-                    "ref": "IconLogger.html#info",
-                    "tf": 712.5
-                  },
                   "Logger.BasicLogger.html#info": {
                     "ref": "Logger.BasicLogger.html#info",
                     "tf": 662.5
@@ -1074,134 +1002,6 @@ window.lunrData = {
                         "LoggerFactory.html#.getLogger": {
                           "ref": "LoggerFactory.html#.getLogger",
                           "tf": 16.666666666666664
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "c": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "n": {
-                "docs": {
-                  "IconLogger.html": {
-                    "ref": "IconLogger.html",
-                    "tf": 12.5
-                  }
-                },
-                "l": {
-                  "docs": {},
-                  "o": {
-                    "docs": {},
-                    "g": {
-                      "docs": {},
-                      "g": {
-                        "docs": {
-                          "IconLogger.html": {
-                            "ref": "IconLogger.html",
-                            "tf": 1900
-                          }
-                        },
-                        "e": {
-                          "docs": {},
-                          "r": {
-                            "docs": {},
-                            "#": {
-                              "docs": {},
-                              "l": {
-                                "docs": {},
-                                "o": {
-                                  "docs": {},
-                                  "g": {
-                                    "docs": {
-                                      "IconLogger.html#log": {
-                                        "ref": "IconLogger.html#log",
-                                        "tf": 1150
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              "i": {
-                                "docs": {},
-                                "n": {
-                                  "docs": {},
-                                  "f": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {
-                                        "IconLogger.html#info": {
-                                          "ref": "IconLogger.html#info",
-                                          "tf": 1150
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              "e": {
-                                "docs": {},
-                                "r": {
-                                  "docs": {},
-                                  "r": {
-                                    "docs": {},
-                                    "o": {
-                                      "docs": {},
-                                      "r": {
-                                        "docs": {
-                                          "IconLogger.html#error": {
-                                            "ref": "IconLogger.html#error",
-                                            "tf": 1150
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              "d": {
-                                "docs": {},
-                                "e": {
-                                  "docs": {},
-                                  "b": {
-                                    "docs": {},
-                                    "u": {
-                                      "docs": {},
-                                      "g": {
-                                        "docs": {
-                                          "IconLogger.html#debug": {
-                                            "ref": "IconLogger.html#debug",
-                                            "tf": 1150
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              "w": {
-                                "docs": {},
-                                "a": {
-                                  "docs": {},
-                                  "r": {
-                                    "docs": {},
-                                    "n": {
-                                      "docs": {
-                                        "IconLogger.html#warn": {
-                                          "ref": "IconLogger.html#warn",
-                                          "tf": 1150
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
                         }
                       }
                     }
@@ -1400,26 +1200,6 @@ window.lunrData = {
                   "ref": "ConsoleLogger.html#warn",
                   "tf": 12.5
                 },
-                "IconLogger.html#log": {
-                  "ref": "IconLogger.html#log",
-                  "tf": 695.8333333333334
-                },
-                "IconLogger.html#info": {
-                  "ref": "IconLogger.html#info",
-                  "tf": 12.5
-                },
-                "IconLogger.html#error": {
-                  "ref": "IconLogger.html#error",
-                  "tf": 12.5
-                },
-                "IconLogger.html#debug": {
-                  "ref": "IconLogger.html#debug",
-                  "tf": 12.5
-                },
-                "IconLogger.html#warn": {
-                  "ref": "IconLogger.html#warn",
-                  "tf": 12.5
-                },
                 "Logger.BasicLogger.html#log": {
                   "ref": "Logger.BasicLogger.html#log",
                   "tf": 645.8333333333334
@@ -1475,9 +1255,13 @@ window.lunrData = {
                         "ref": "ConsoleLogger.html",
                         "tf": 25
                       },
-                      "IconLogger.html": {
-                        "ref": "IconLogger.html",
-                        "tf": 12.5
+                      "Logger.BasicLogger.html": {
+                        "ref": "Logger.BasicLogger.html",
+                        "tf": 8.333333333333332
+                      },
+                      "Logger.ColorConsoleLogger.html": {
+                        "ref": "Logger.ColorConsoleLogger.html",
+                        "tf": 16.666666666666664
                       },
                       "LoggerFactory.html": {
                         "ref": "LoggerFactory.html",
@@ -1486,72 +1270,6 @@ window.lunrData = {
                       "LoggerFactory.html#.getLogger": {
                         "ref": "LoggerFactory.html#.getLogger",
                         "tf": 16.666666666666664
-                      },
-                      "Logger.BasicLogger.html": {
-                        "ref": "Logger.BasicLogger.html",
-                        "tf": 8.333333333333332
-                      },
-                      "Logger.ColorConsoleLogger.html": {
-                        "ref": "Logger.ColorConsoleLogger.html",
-                        "tf": 16.666666666666664
-                      }
-                    },
-                    "f": {
-                      "docs": {},
-                      "a": {
-                        "docs": {},
-                        "c": {
-                          "docs": {},
-                          "t": {
-                            "docs": {},
-                            "o": {
-                              "docs": {},
-                              "r": {
-                                "docs": {},
-                                "i": {
-                                  "docs": {
-                                    "LoggerFactory.html": {
-                                      "ref": "LoggerFactory.html",
-                                      "tf": 1900
-                                    }
-                                  }
-                                },
-                                "y": {
-                                  "docs": {},
-                                  ".": {
-                                    "docs": {},
-                                    "g": {
-                                      "docs": {},
-                                      "e": {
-                                        "docs": {},
-                                        "t": {
-                                          "docs": {},
-                                          "l": {
-                                            "docs": {},
-                                            "o": {
-                                              "docs": {},
-                                              "g": {
-                                                "docs": {},
-                                                "g": {
-                                                  "docs": {
-                                                    "LoggerFactory.html#.getLogger": {
-                                                      "ref": "LoggerFactory.html#.getLogger",
-                                                      "tf": 1150
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
                       }
                     },
                     ".": {
@@ -1835,6 +1553,64 @@ window.lunrData = {
                           }
                         }
                       }
+                    },
+                    "f": {
+                      "docs": {},
+                      "a": {
+                        "docs": {},
+                        "c": {
+                          "docs": {},
+                          "t": {
+                            "docs": {},
+                            "o": {
+                              "docs": {},
+                              "r": {
+                                "docs": {},
+                                "i": {
+                                  "docs": {
+                                    "LoggerFactory.html": {
+                                      "ref": "LoggerFactory.html",
+                                      "tf": 1900
+                                    }
+                                  }
+                                },
+                                "y": {
+                                  "docs": {},
+                                  ".": {
+                                    "docs": {},
+                                    "g": {
+                                      "docs": {},
+                                      "e": {
+                                        "docs": {},
+                                        "t": {
+                                          "docs": {},
+                                          "l": {
+                                            "docs": {},
+                                            "o": {
+                                              "docs": {},
+                                              "g": {
+                                                "docs": {},
+                                                "g": {
+                                                  "docs": {
+                                                    "LoggerFactory.html#.getLogger": {
+                                                      "ref": "LoggerFactory.html#.getLogger",
+                                                      "tf": 1150
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -1965,30 +1741,6 @@ window.lunrData = {
                       "ref": "ConsoleLogger.html#warn",
                       "tf": 12.5
                     },
-                    "IconLogger.html#log": {
-                      "ref": "IconLogger.html#log",
-                      "tf": 45.83333333333333
-                    },
-                    "IconLogger.html#info": {
-                      "ref": "IconLogger.html#info",
-                      "tf": 12.5
-                    },
-                    "IconLogger.html#error": {
-                      "ref": "IconLogger.html#error",
-                      "tf": 12.5
-                    },
-                    "IconLogger.html#debug": {
-                      "ref": "IconLogger.html#debug",
-                      "tf": 12.5
-                    },
-                    "IconLogger.html#warn": {
-                      "ref": "IconLogger.html#warn",
-                      "tf": 12.5
-                    },
-                    "LoggerFactory.html#.getLogger": {
-                      "ref": "LoggerFactory.html#.getLogger",
-                      "tf": 25
-                    },
                     "Logger.BasicLogger.html": {
                       "ref": "Logger.BasicLogger.html",
                       "tf": 8.333333333333332
@@ -2032,6 +1784,10 @@ window.lunrData = {
                     "Logger.ColorConsoleLogger.html#warn": {
                       "ref": "Logger.ColorConsoleLogger.html#warn",
                       "tf": 12.5
+                    },
+                    "LoggerFactory.html#.getLogger": {
+                      "ref": "LoggerFactory.html#.getLogger",
+                      "tf": 25
                     }
                   }
                 }
@@ -2095,30 +1851,6 @@ window.lunrData = {
                             "ref": "ConsoleLogger.html#warn",
                             "tf": 110
                           },
-                          "IconLogger.html#log": {
-                            "ref": "IconLogger.html#log",
-                            "tf": 110
-                          },
-                          "IconLogger.html#info": {
-                            "ref": "IconLogger.html#info",
-                            "tf": 110
-                          },
-                          "IconLogger.html#error": {
-                            "ref": "IconLogger.html#error",
-                            "tf": 110
-                          },
-                          "IconLogger.html#debug": {
-                            "ref": "IconLogger.html#debug",
-                            "tf": 110
-                          },
-                          "IconLogger.html#warn": {
-                            "ref": "IconLogger.html#warn",
-                            "tf": 110
-                          },
-                          "LoggerFactory.html#.getLogger": {
-                            "ref": "LoggerFactory.html#.getLogger",
-                            "tf": 110
-                          },
                           "Logger.BasicLogger.html#log": {
                             "ref": "Logger.BasicLogger.html#log",
                             "tf": 110
@@ -2157,6 +1889,10 @@ window.lunrData = {
                           },
                           "Logger.ColorConsoleLogger.html#warn": {
                             "ref": "Logger.ColorConsoleLogger.html#warn",
+                            "tf": 110
+                          },
+                          "LoggerFactory.html#.getLogger": {
+                            "ref": "LoggerFactory.html#.getLogger",
                             "tf": 110
                           }
                         }
@@ -2243,26 +1979,6 @@ window.lunrData = {
                         "ref": "ConsoleLogger.html#warn",
                         "tf": 62.5
                       },
-                      "IconLogger.html#log": {
-                        "ref": "IconLogger.html#log",
-                        "tf": 45.83333333333333
-                      },
-                      "IconLogger.html#info": {
-                        "ref": "IconLogger.html#info",
-                        "tf": 62.5
-                      },
-                      "IconLogger.html#error": {
-                        "ref": "IconLogger.html#error",
-                        "tf": 62.5
-                      },
-                      "IconLogger.html#debug": {
-                        "ref": "IconLogger.html#debug",
-                        "tf": 62.5
-                      },
-                      "IconLogger.html#warn": {
-                        "ref": "IconLogger.html#warn",
-                        "tf": 62.5
-                      },
                       "Logger.BasicLogger.html#log": {
                         "ref": "Logger.BasicLogger.html#log",
                         "tf": 45.83333333333333
@@ -2328,10 +2044,6 @@ window.lunrData = {
                       "ref": "ConsoleLogger.html#error",
                       "tf": 712.5
                     },
-                    "IconLogger.html#error": {
-                      "ref": "IconLogger.html#error",
-                      "tf": 712.5
-                    },
                     "Logger.BasicLogger.html#error": {
                       "ref": "Logger.BasicLogger.html#error",
                       "tf": 662.5
@@ -2379,10 +2091,6 @@ window.lunrData = {
                     "ref": "ConsoleLogger.html#warn",
                     "tf": 712.5
                   },
-                  "IconLogger.html#warn": {
-                    "ref": "IconLogger.html#warn",
-                    "tf": 712.5
-                  },
                   "Logger.BasicLogger.html#warn": {
                     "ref": "Logger.BasicLogger.html#warn",
                     "tf": 662.5
@@ -2390,37 +2098,6 @@ window.lunrData = {
                   "Logger.ColorConsoleLogger.html#warn": {
                     "ref": "Logger.ColorConsoleLogger.html#warn",
                     "tf": 662.5
-                  }
-                }
-              }
-            }
-          }
-        },
-        "t": {
-          "docs": {},
-          "y": {
-            "docs": {},
-            "p": {
-              "docs": {},
-              "e": {
-                "docs": {
-                  "LoggerFactory.html#.getLogger": {
-                    "ref": "LoggerFactory.html#.getLogger",
-                    "tf": 25
-                  }
-                }
-              }
-            }
-          },
-          "e": {
-            "docs": {},
-            "x": {
-              "docs": {},
-              "t": {
-                "docs": {
-                  "Logger.BasicLogger.html": {
-                    "ref": "Logger.BasicLogger.html",
-                    "tf": 8.333333333333332
                   }
                 }
               }
@@ -2560,9 +2237,40 @@ window.lunrData = {
               }
             }
           }
+        },
+        "t": {
+          "docs": {},
+          "e": {
+            "docs": {},
+            "x": {
+              "docs": {},
+              "t": {
+                "docs": {
+                  "Logger.BasicLogger.html": {
+                    "ref": "Logger.BasicLogger.html",
+                    "tf": 8.333333333333332
+                  }
+                }
+              }
+            }
+          },
+          "y": {
+            "docs": {},
+            "p": {
+              "docs": {},
+              "e": {
+                "docs": {
+                  "LoggerFactory.html#.getLogger": {
+                    "ref": "LoggerFactory.html#.getLogger",
+                    "tf": 25
+                  }
+                }
+              }
+            }
+          }
         }
       },
-      "length": 218
+      "length": 182
     },
     "corpusTokens": [
       "abstract",
@@ -2608,13 +2316,6 @@ window.lunrData = {
       "function",
       "getlogg",
       "global",
-      "icon",
-      "iconlogg",
-      "iconlogger#debug",
-      "iconlogger#error",
-      "iconlogger#info",
-      "iconlogger#log",
-      "iconlogger#warn",
       "index",
       "info",
       "instanc",
@@ -2809,88 +2510,6 @@ window.lunrData = {
       "summary": "",
       "description": "Log a message in warn level"
     },
-    "IconLogger.html": {
-      "id": "IconLogger.html",
-      "kind": "class",
-      "title": "IconLogger",
-      "longname": "IconLogger",
-      "name": "IconLogger",
-      "tags": "IconLogger",
-      "summary": "",
-      "description": "Color Icon Console Logger",
-      "body": ""
-    },
-    "IconLogger.html#log": {
-      "id": "IconLogger.html#log",
-      "kind": "function",
-      "title": "log( ...message, level )",
-      "longname": "IconLogger#log",
-      "name": "log",
-      "tags": "IconLogger#log log",
-      "summary": "",
-      "description": "log a message with default level"
-    },
-    "IconLogger.html#info": {
-      "id": "IconLogger.html#info",
-      "kind": "function",
-      "title": "info( ...message )",
-      "longname": "IconLogger#info",
-      "name": "info",
-      "tags": "IconLogger#info info",
-      "summary": "",
-      "description": "Logs a message in info level"
-    },
-    "IconLogger.html#error": {
-      "id": "IconLogger.html#error",
-      "kind": "function",
-      "title": "error( ...message )",
-      "longname": "IconLogger#error",
-      "name": "error",
-      "tags": "IconLogger#error error",
-      "summary": "",
-      "description": "Log a message in error level"
-    },
-    "IconLogger.html#debug": {
-      "id": "IconLogger.html#debug",
-      "kind": "function",
-      "title": "debug( ...message )",
-      "longname": "IconLogger#debug",
-      "name": "debug",
-      "tags": "IconLogger#debug debug",
-      "summary": "",
-      "description": "Log a message in debug level"
-    },
-    "IconLogger.html#warn": {
-      "id": "IconLogger.html#warn",
-      "kind": "function",
-      "title": "warn( ...message )",
-      "longname": "IconLogger#warn",
-      "name": "warn",
-      "tags": "IconLogger#warn warn",
-      "summary": "",
-      "description": "Log a message in warn level"
-    },
-    "LoggerFactory.html": {
-      "id": "LoggerFactory.html",
-      "kind": "class",
-      "title": "LoggerFactory",
-      "longname": "LoggerFactory",
-      "name": "LoggerFactory",
-      "tags": "LoggerFactory",
-      "summary": "",
-      "description": "A logger factory for creating a logger instance",
-      "body": ""
-    },
-    "LoggerFactory.html#.getLogger": {
-      "id": "LoggerFactory.html#.getLogger",
-      "kind": "function",
-      "title": "&lt;static&gt; getLogger( type, level )",
-      "longname": "LoggerFactory.getLogger",
-      "name": "getLogger",
-      "tags": "LoggerFactory.getLogger getLogger",
-      "summary": "",
-      "description": "getLogger - get an instance of a logger"
-    },
     "Logger.BasicLogger.html": {
       "id": "Logger.BasicLogger.html",
       "kind": "class",
@@ -3012,6 +2631,27 @@ window.lunrData = {
       "tags": "Logger.ColorConsoleLogger#warn ColorConsoleLogger#warn warn",
       "summary": "",
       "description": "Log a message in warn level"
+    },
+    "LoggerFactory.html": {
+      "id": "LoggerFactory.html",
+      "kind": "class",
+      "title": "LoggerFactory",
+      "longname": "LoggerFactory",
+      "name": "LoggerFactory",
+      "tags": "LoggerFactory",
+      "summary": "",
+      "description": "A logger factory for creating a logger instance",
+      "body": ""
+    },
+    "LoggerFactory.html#.getLogger": {
+      "id": "LoggerFactory.html#.getLogger",
+      "kind": "function",
+      "title": "&lt;static&gt; getLogger( type, level )",
+      "longname": "LoggerFactory.getLogger",
+      "name": "getLogger",
+      "tags": "LoggerFactory.getLogger getLogger",
+      "summary": "",
+      "description": "getLogger - get an instance of a logger"
     }
   }
 };
