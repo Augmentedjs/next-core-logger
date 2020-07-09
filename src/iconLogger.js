@@ -61,4 +61,4 @@ class IconLogger extends ColorConsoleLogger {
   };
 };
 
-module.exports = IconLogger;
+export default IconLogger;

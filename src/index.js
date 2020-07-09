@@ -7,11 +7,4 @@ import LoggerFactory from "./loggerFactory.js";
 import Type from "./type.js";
 import Level from "./level.js";
 
-module.exports.AbstractLogger = AbstractLogger;
-module.exports.ConsoleLogger = ConsoleLogger;
-module.exports.ColorConsoleLogger = ColorConsoleLogger;
-module.exports.LoggerFactory = LoggerFactory;
-module.exports.BasicLogger = BasicLogger;
-module.exports.IconLogger = IconLogger;
-module.exports.Type = Type;
-module.exports.Level = Level;
+export { AbstractLogger, ConsoleLogger, ColorConsoleLogger, LoggerFactory, BasicLogger, IconLogger, Type, Level };
